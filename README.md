@@ -1,32 +1,41 @@
 # PPT Agent 2
 
-Reusable offline workflow for generating editable PPT decks from:
+PPT Agent 2 is an offline PowerPoint workflow for turning requirements docs and reference decks into editable, business-ready presentations.
 
-- a requirement document (`.docx` or `.pdf`)
-- a blank PPT template
-- one or more reference PPTs
+It is built for Chinese financial reporting, management reporting, and similar presentation-heavy workflows where editable output matters more than a flat image export.
 
-This repository is designed for Chinese financial reporting, management reporting, and similar business presentation scenarios. It focuses on turning source materials into a fully editable PowerPoint workflow instead of a locked image-based export.
-
-## Highlights
+## At a glance
 
 - Parse requirement documents from `.docx` and `.pdf`
-- Plan slide structure dynamically from document headings and content signals
-- Generate editable `.pptx` output with `pptxgenjs`
-- Support multiple reference PPT uploads and reusable material extraction
-- Produce real PowerPoint-rendered previews when Microsoft PowerPoint is available
-- Keep intermediate artifacts visible: outline, style, layout choices, and previews
+- Plan slide structure from headings, tables, images, and content signals
+- Generate editable `.pptx` files with `pptxgenjs`
+- Reuse materials extracted from one or more reference PPTs
+- Export real PowerPoint-rendered slide previews when PowerPoint is available
+- Keep the drafting pipeline visible: summary, outline, style, layout, and preview artifacts
 
-## What the workflow does
+## Public repository scope
 
-The project converts:
+This GitHub repository intentionally contains **code and configuration only**.
+
+It does not include:
+
+- actual project materials
+- reference deck content
+- generated previews or deliverables
+- other large binary assets
+
+The expected directory structure is preserved with `.gitkeep` placeholders so the repository still clones cleanly and remains easy to understand.
+
+## How the workflow fits together
+
+The project turns source inputs into a fully editable deck:
 
 - `requirement doc` → structured content model
 - `reference PPT(s)` → reusable material library
 - `blank template` → page size and font baseline
-- `outline + style + layout selection` → editable `.pptx`
+- `outline + style + layout selection` → final `.pptx`
 
-It also keeps key draft artifacts accessible:
+Intermediate artifacts stay available for inspection and correction:
 
 - document summary
 - outline draft
@@ -35,34 +44,21 @@ It also keeps key draft artifacts accessible:
 - rendered draft preview
 - final rendered preview
 
-## Public repository scope
-
-This public repository contains code and configuration only.
-
-It intentionally does **not** include:
-
-- actual project materials
-- reference PPT content
-- generated previews and deliverables
-- other large binary assets
-
-The folder structure is preserved with `.gitkeep` placeholders so the expected directories still exist after clone.
-
 ## Quick start
 
-### Install
+### 1. Install dependencies
 
 ```bash
 npm ci
 ```
 
-### Run the web UI
+### 2. Start the web UI
 
 ```bash
 npm run ui
 ```
 
-### Generate a deck
+### 3. Generate a deck
 
 ```bash
 npm run generate -- \
@@ -72,7 +68,7 @@ npm run generate -- \
   --out path/to/output.pptx
 ```
 
-### Build or refresh the reference library
+### 4. Refresh the reference library
 
 ```bash
 npm run extract-reference-library -- \
@@ -80,7 +76,7 @@ npm run extract-reference-library -- \
   --output path/to/reference_library
 ```
 
-### Run checks
+### 5. Run the release gate
 
 ```bash
 npm run release-check
@@ -90,9 +86,9 @@ npm run release-check
 
 - Node.js 22+
 - npm
-- Microsoft PowerPoint on Windows if you want real slide preview export
+- Microsoft PowerPoint on Windows for real slide preview export
 
-## Project scripts
+## Scripts
 
 - `npm run generate` — main CLI generation entry
 - `npm run extract-reference-library` — reference PPT extraction pipeline
@@ -100,7 +96,7 @@ npm run release-check
 - `npm test` — run the test suite
 - `npm run release-check` — run the public-repo release gate
 
-## Project structure
+## Repository layout
 
 ```text
 .
@@ -114,7 +110,9 @@ npm run release-check
 └── README.md
 ```
 
-## Language
+## Languages
 
-- [English](./README.md)
-- [简体中文](./README.zh-CN.md)
+- English
+- 简体中文
+
+See [README.zh-CN.md](./README.zh-CN.md) for the Chinese version.
