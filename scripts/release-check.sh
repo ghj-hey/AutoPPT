@@ -32,3 +32,4 @@ git ls-files '*.js' '*.cjs' '*.mjs' | xargs -r -n 1 node --check
 echo "[release-check] running test suite"
 node --test test/layoutVerification.test.js
 node --test test/workflowSessionService.test.js
+node --test test/workflowPreviewFallback.test.js
