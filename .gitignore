@@ -11,6 +11,46 @@ agents.md
 output_fix_round/
 tmp_create_resp.txt
 
+# Published repository scope:
+# keep code/config only; exclude reference materials, docs, and media.
+assets/*
+!assets/.gitkeep
+reference_library/*
+!reference_library/.gitkeep
+!reference_library/libraries/
+reference_library/libraries/*
+!reference_library/libraries/.gitkeep
+!reference_library/master/
+reference_library/master/*
+!reference_library/master/.gitkeep
+!reference_library/work_meeting/
+reference_library/work_meeting/*
+!reference_library/work_meeting/.gitkeep
+README*.md
+LICENSE
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.tiff
+*.wdp
+*.pdf
+*.ppt
+*.pptx
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.csv
+*.tsv
+*.mp4
+*.mov
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
 # Logs
 *.log
 npm-debug.log*
