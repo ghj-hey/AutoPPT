@@ -351,7 +351,7 @@ async function extractReferenceLibrary(args) {
       width: 1600,
       height: 900,
       timeoutMs: 180000,
-    }).catch(() => []);
+    }).then((result) => result?.previews || []).catch(() => []);
   }
 
   const shapeCounts = new Map();

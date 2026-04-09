@@ -1045,6 +1045,7 @@ async function createWorkflowSession({ files, options = {} }) {
     style,
     notes,
     documentSummary,
+    previewEnvironment,
     previews,
     previewState: draftPreviewState,
     uploadedMaterialLibraries: reference.uploadedLibraries,
@@ -1097,6 +1098,7 @@ async function createWorkflowSession({ files, options = {} }) {
 
 async function startWorkflowSession({ files, options = {} }) {
   const { sessionId, sessionDir } = createSession();
+  const previewEnvironment = detectPreviewSupport();
   saveSessionMeta(sessionDir, {
     sessionId,
     sessionDir,
@@ -1110,6 +1112,7 @@ async function startWorkflowSession({ files, options = {} }) {
     semanticModelBaseUrl: options.semanticBaseUrl || process.env.SEMANTIC_MODEL_BASE_URL || "",
     semanticModelName: resolveSemanticModelName(options),
     semanticModelAvailable: resolveSemanticAvailability(options),
+    previewEnvironment,
   });
 
   setImmediate(async () => {
@@ -1177,6 +1180,7 @@ async function startWorkflowSession({ files, options = {} }) {
     semanticModelBaseUrl: options.semanticBaseUrl || process.env.SEMANTIC_MODEL_BASE_URL || "",
     semanticModelName: resolveSemanticModelName(options),
     semanticModelAvailable: resolveSemanticAvailability(options),
+    previewEnvironment,
   };
 }
 
@@ -1291,7 +1295,7 @@ async function generateWorkflowDeck({ sessionId, outline, style, layoutSelection
     progress: 100,
     currentStage: "completed",
     currentStageLabel: "处理完成",
-    message: "最终 PPT 与真实渲染图已归档，原始会话工作区已销毁。",
+    message: `${previewStatusMessage("最终 PPT", finalPreviewState)} 原始会话工作区已销毁。`,
     previewState: finalPreviewState,
     layoutSet: layoutLibrary.setName,
     layoutOptions: buildLayoutOptions(
