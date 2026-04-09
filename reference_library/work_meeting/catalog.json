@@ -1,0 +1,3256 @@
+{
+  "sourcePptx": "E:\\codex\\ppt_agent2\\input_reference_deck.pptx",
+  "generatedAt": "2026-03-17T06:43:32.159Z",
+  "slideSize": {
+    "widthInches": 12.598611111111111,
+    "heightInches": 7.086805555555555
+  },
+  "themeFonts": {
+    "majorLatin": "",
+    "minorLatin": "",
+    "majorEastAsia": "",
+    "minorEastAsia": ""
+  },
+  "counts": {
+    "slides": 11,
+    "media": 53,
+    "vectorIcons": 6,
+    "screenshotsOrCharts": 6,
+    "icons": 17,
+    "branding": 4
+  },
+  "palette": {
+    "topColors": [
+      {
+        "name": "scheme:tx1",
+        "count": 100
+      },
+      {
+        "name": "006544",
+        "count": 76
+      },
+      {
+        "name": "scheme:bg1",
+        "count": 66
+      },
+      {
+        "name": "scheme:accent6",
+        "count": 43
+      },
+      {
+        "name": "000000",
+        "count": 43
+      },
+      {
+        "name": "scheme:accent2",
+        "count": 37
+      },
+      {
+        "name": "086346",
+        "count": 24
+      },
+      {
+        "name": "ED7D31",
+        "count": 17
+      },
+      {
+        "name": "3F3F3F",
+        "count": 15
+      },
+      {
+        "name": "scheme:accent4",
+        "count": 13
+      },
+      {
+        "name": "70AD47",
+        "count": 13
+      },
+      {
+        "name": "0A6345",
+        "count": 13
+      },
+      {
+        "name": "FFFFFF",
+        "count": 11
+      },
+      {
+        "name": "scheme:accent1",
+        "count": 6
+      },
+      {
+        "name": "92D050",
+        "count": 3
+      },
+      {
+        "name": "E2F0D9",
+        "count": 3
+      },
+      {
+        "name": "70AE47",
+        "count": 3
+      },
+      {
+        "name": "2A6346",
+        "count": 3
+      },
+      {
+        "name": "EDEDED",
+        "count": 2
+      },
+      {
+        "name": "scheme:accent3",
+        "count": 2
+      }
+    ]
+  },
+  "shapes": {
+    "topPresets": [
+      {
+        "name": "rect",
+        "count": 173
+      },
+      {
+        "name": "roundRect",
+        "count": 30
+      },
+      {
+        "name": "custom",
+        "count": 25
+      },
+      {
+        "name": "ellipse",
+        "count": 14
+      },
+      {
+        "name": "round2DiagRect",
+        "count": 9
+      },
+      {
+        "name": "star5",
+        "count": 6
+      },
+      {
+        "name": "rightArrow",
+        "count": 6
+      },
+      {
+        "name": "wedgeRoundRectCallout",
+        "count": 6
+      },
+      {
+        "name": "line",
+        "count": 4
+      },
+      {
+        "name": "wedgeRectCallout",
+        "count": 3
+      },
+      {
+        "name": "homePlate",
+        "count": 3
+      },
+      {
+        "name": "parallelogram",
+        "count": 3
+      },
+      {
+        "name": "chevron",
+        "count": 2
+      },
+      {
+        "name": "trapezoid",
+        "count": 1
+      }
+    ]
+  },
+  "typography": {
+    "topFonts": [
+      {
+        "name": "微软雅黑",
+        "count": 391
+      }
+    ],
+    "topTextStyles": [
+      {
+        "font": "微软雅黑",
+        "size": 10,
+        "color": "none",
+        "weight": "regular",
+        "count": 56
+      },
+      {
+        "font": "unknown",
+        "size": 0,
+        "color": "none",
+        "weight": "regular",
+        "count": 42
+      },
+      {
+        "font": "unknown",
+        "size": 0,
+        "color": "scheme:tx1",
+        "weight": "regular",
+        "count": 35
+      },
+      {
+        "font": "微软雅黑",
+        "size": 10,
+        "color": "none",
+        "weight": "bold",
+        "count": 31
+      },
+      {
+        "font": "unknown",
+        "size": 11,
+        "color": "scheme:tx1",
+        "weight": "regular",
+        "count": 26
+      },
+      {
+        "font": "微软雅黑",
+        "size": 10,
+        "color": "000000",
+        "weight": "regular",
+        "count": 23
+      },
+      {
+        "font": "微软雅黑",
+        "size": 12,
+        "color": "none",
+        "weight": "regular",
+        "count": 19
+      },
+      {
+        "font": "微软雅黑",
+        "size": 16,
+        "color": "none",
+        "weight": "regular",
+        "count": 19
+      },
+      {
+        "font": "unknown",
+        "size": 14,
+        "color": "none",
+        "weight": "bold",
+        "count": 18
+      },
+      {
+        "font": "微软雅黑",
+        "size": 12,
+        "color": "006544",
+        "weight": "bold",
+        "count": 16
+      },
+      {
+        "font": "微软雅黑",
+        "size": 14,
+        "color": "none",
+        "weight": "regular",
+        "count": 14
+      },
+      {
+        "font": "微软雅黑",
+        "size": 10,
+        "color": "ED7D31",
+        "weight": "bold",
+        "count": 13
+      },
+      {
+        "font": "unknown",
+        "size": 12,
+        "color": "000000",
+        "weight": "regular",
+        "count": 13
+      },
+      {
+        "font": "微软雅黑",
+        "size": 12,
+        "color": "scheme:bg1",
+        "weight": "regular",
+        "count": 13
+      },
+      {
+        "font": "unknown",
+        "size": 9.45,
+        "color": "none",
+        "weight": "regular",
+        "count": 12
+      },
+      {
+        "font": "unknown",
+        "size": 0,
+        "color": "scheme:accent2",
+        "weight": "regular",
+        "count": 12
+      },
+      {
+        "font": "微软雅黑",
+        "size": 16,
+        "color": "scheme:tx1",
+        "weight": "regular",
+        "count": 11
+      },
+      {
+        "font": "unknown",
+        "size": 9.45,
+        "color": "006544",
+        "weight": "bold",
+        "count": 11
+      },
+      {
+        "font": "unknown",
+        "size": 12,
+        "color": "none",
+        "weight": "regular",
+        "count": 11
+      },
+      {
+        "font": "unknown",
+        "size": 11,
+        "color": "0A6345",
+        "weight": "bold",
+        "count": 11
+      }
+    ]
+  },
+  "tables": {
+    "topTableSignatures": []
+  },
+  "media": [
+    {
+      "id": "image1",
+      "name": "image1.png",
+      "source": "ppt/media/image1.png",
+      "ext": ".png",
+      "size": 2525,
+      "dimensions": {
+        "height": 66,
+        "width": 2771,
+        "type": "png"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "branding"
+    },
+    {
+      "id": "image10",
+      "name": "image10.png",
+      "source": "ppt/media/image10.png",
+      "ext": ".png",
+      "size": 9823,
+      "dimensions": {
+        "height": 84,
+        "width": 520,
+        "type": "png"
+      },
+      "slides": [
+        "slide3"
+      ],
+      "uses": [
+        {
+          "slide": "slide3",
+          "xfrm": {
+            "x": 452750,
+            "y": 3376118,
+            "cx": 2422208,
+            "cy": 391202,
+            "xIn": 0.4951334208223972,
+            "yIn": 3.692167541557305,
+            "wIn": 2.6489588801399826,
+            "hIn": 0.42782370953630794
+          }
+        },
+        {
+          "slide": "slide3",
+          "xfrm": {
+            "x": 428288,
+            "y": 1605825,
+            "cx": 2422208,
+            "cy": 391202,
+            "xIn": 0.4683814523184602,
+            "yIn": 1.7561515748031495,
+            "wIn": 2.6489588801399826,
+            "hIn": 0.42782370953630794
+          }
+        },
+        {
+          "slide": "slide3",
+          "xfrm": {
+            "x": 5496656,
+            "y": 1624919,
+            "cx": 2422208,
+            "cy": 391202,
+            "xIn": 6.011216097987751,
+            "yIn": 1.7770330271216097,
+            "wIn": 2.6489588801399826,
+            "hIn": 0.42782370953630794
+          }
+        }
+      ],
+      "category": "mixed-media"
+    },
+    {
+      "id": "image11",
+      "name": "image11.png",
+      "source": "ppt/media/image11.png",
+      "ext": ".png",
+      "size": 3595,
+      "dimensions": {
+        "height": 200,
+        "width": 200,
+        "type": "png"
+      },
+      "slides": [
+        "slide3"
+      ],
+      "uses": [
+        {
+          "slide": "slide3",
+          "xfrm": {
+            "x": 601689,
+            "y": 1715027,
+            "cx": 228001,
+            "cy": 228001,
+            "xIn": 0.658015091863517,
+            "yIn": 1.875576334208224,
+            "wIn": 0.24934492563429572,
+            "hIn": 0.24934492563429572
+          }
+        }
+      ],
+      "category": "icons"
+    },
+    {
+      "id": "image12",
+      "name": "image12.png",
+      "source": "ppt/media/image12.png",
+      "ext": ".png",
+      "size": 4957,
+      "dimensions": {
+        "height": 200,
+        "width": 200,
+        "type": "png"
+      },
+      "slides": [
+        "slide3"
+      ],
+      "uses": [
+        {
+          "slide": "slide3",
+          "xfrm": {
+            "x": 623049,
+            "y": 3474086,
+            "cx": 261602,
+            "cy": 261602,
+            "xIn": 0.6813746719160105,
+            "yIn": 3.799306649168854,
+            "wIn": 0.28609142607174104,
+            "hIn": 0.28609142607174104
+          }
+        }
+      ],
+      "category": "icons"
+    },
+    {
+      "id": "image13",
+      "name": "image13.png",
+      "source": "ppt/media/image13.png",
+      "ext": ".png",
+      "size": 22615,
+      "dimensions": {
+        "height": 450,
+        "width": 450,
+        "type": "png"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "mixed-media"
+    },
+    {
+      "id": "image14",
+      "name": "image14.png",
+      "source": "ppt/media/image14.png",
+      "ext": ".png",
+      "size": 10127,
+      "dimensions": {
+        "height": 224,
+        "width": 392,
+        "type": "png"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "icons"
+    },
+    {
+      "id": "image15",
+      "name": "image15.png",
+      "source": "ppt/media/image15.png",
+      "ext": ".png",
+      "size": 5880,
+      "dimensions": {
+        "height": 256,
+        "width": 256,
+        "type": "png"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "icons"
+    },
+    {
+      "id": "image16",
+      "name": "image16.png",
+      "source": "ppt/media/image16.png",
+      "ext": ".png",
+      "size": 5611,
+      "dimensions": {
+        "height": 200,
+        "width": 200,
+        "type": "png"
+      },
+      "slides": [
+        "slide3"
+      ],
+      "uses": [
+        {
+          "slide": "slide3",
+          "xfrm": {
+            "x": 5680857,
+            "y": 1743294,
+            "cx": 217801,
+            "cy": 217801,
+            "xIn": 6.212660761154855,
+            "yIn": 1.906489501312336,
+            "wIn": 0.23819006999125109,
+            "hIn": 0.23819006999125109
+          }
+        }
+      ],
+      "category": "icons"
+    },
+    {
+      "id": "image17",
+      "name": "image17.png",
+      "source": "ppt/media/image17.png",
+      "ext": ".png",
+      "size": 645629,
+      "dimensions": {
+        "height": 2128,
+        "width": 2098,
+        "type": "png"
+      },
+      "slides": [
+        "slide3"
+      ],
+      "uses": [
+        {
+          "slide": "slide3",
+          "xfrm": {
+            "x": 10643327,
+            "y": 5147874,
+            "cx": 378606,
+            "cy": 384606,
+            "xIn": 11.639683945756781,
+            "yIn": 5.62978346456693,
+            "wIn": 0.4140485564304462,
+            "hIn": 0.42061023622047244
+          }
+        }
+      ],
+      "category": "screenshots-charts"
+    },
+    {
+      "id": "image18",
+      "name": "image18.png",
+      "source": "ppt/media/image18.png",
+      "ext": ".png",
+      "size": 45162,
+      "dimensions": {
+        "height": 669,
+        "width": 937,
+        "type": "png"
+      },
+      "slides": [
+        "slide3"
+      ],
+      "uses": [
+        {
+          "slide": "slide3",
+          "xfrm": {
+            "x": 5792781,
+            "y": 4150908,
+            "cx": 911413,
+            "cy": 651610,
+            "xIn": 6.335062335958005,
+            "yIn": 4.539488188976378,
+            "wIn": 0.9967333770778652,
+            "hIn": 0.7126093613298338
+          }
+        }
+      ],
+      "category": "mixed-media"
+    },
+    {
+      "id": "image19",
+      "name": "image19.png",
+      "source": "ppt/media/image19.png",
+      "ext": ".png",
+      "size": 50961,
+      "dimensions": {
+        "height": 583,
+        "width": 945,
+        "type": "png"
+      },
+      "slides": [
+        "slide3"
+      ],
+      "uses": [
+        {
+          "slide": "slide3",
+          "xfrm": {
+            "x": 7238203,
+            "y": 4224709,
+            "cx": 935414,
+            "cy": 577809,
+            "xIn": 7.915795056867892,
+            "yIn": 4.620197944006999,
+            "wIn": 1.0229811898512686,
+            "hIn": 0.6318996062992126
+          }
+        }
+      ],
+      "category": "mixed-media"
+    },
+    {
+      "id": "image2",
+      "name": "image2.png",
+      "source": "ppt/media/image2.png",
+      "ext": ".png",
+      "size": 39909,
+      "dimensions": {
+        "height": 262,
+        "width": 2105,
+        "type": "png"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "branding"
+    },
+    {
+      "id": "image20",
+      "name": "image20.png",
+      "source": "ppt/media/image20.png",
+      "ext": ".png",
+      "size": 15546,
+      "dimensions": {
+        "height": 223,
+        "width": 260,
+        "type": "png"
+      },
+      "slides": [
+        "slide3"
+      ],
+      "uses": [
+        {
+          "slide": "slide3",
+          "xfrm": {
+            "x": 6876397,
+            "y": 4444913,
+            "cx": 199803,
+            "cy": 171603,
+            "xIn": 7.520119203849519,
+            "yIn": 4.861015966754156,
+            "wIn": 0.21850721784776903,
+            "hIn": 0.18766732283464566
+          }
+        },
+        {
+          "slide": "slide3",
+          "xfrm": {
+            "x": 6833797,
+            "y": 5551661,
+            "cx": 124802,
+            "cy": 107402,
+            "xIn": 7.473531277340332,
+            "yIn": 6.071370297462817,
+            "wIn": 0.1364851268591426,
+            "hIn": 0.1174562554680665
+          }
+        }
+      ],
+      "category": "icons"
+    },
+    {
+      "id": "image21",
+      "name": "image21.png",
+      "source": "ppt/media/image21.png",
+      "ext": ".png",
+      "size": 5720,
+      "dimensions": {
+        "height": 200,
+        "width": 200,
+        "type": "png"
+      },
+      "slides": [
+        "slide3"
+      ],
+      "uses": [
+        {
+          "slide": "slide3",
+          "xfrm": {
+            "x": 6638794,
+            "y": 5534261,
+            "cx": 278404,
+            "cy": 278404,
+            "xIn": 7.260273403324584,
+            "yIn": 6.052341426071741,
+            "wIn": 0.3044663167104112,
+            "hIn": 0.3044663167104112
+          }
+        }
+      ],
+      "category": "icons"
+    },
+    {
+      "id": "image22",
+      "name": "image22.png",
+      "source": "ppt/media/image22.png",
+      "ext": ".png",
+      "size": 14777,
+      "dimensions": {
+        "height": 505,
+        "width": 160,
+        "type": "png"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "mixed-media"
+    },
+    {
+      "id": "image23",
+      "name": "image23.png",
+      "source": "ppt/media/image23.png",
+      "ext": ".png",
+      "size": 1524,
+      "dimensions": {
+        "height": 34,
+        "width": 65,
+        "type": "png"
+      },
+      "slides": [
+        "slide4"
+      ],
+      "uses": [
+        {
+          "slide": "slide4",
+          "xfrm": {
+            "x": 3300730,
+            "y": 1441450,
+            "cx": 885190,
+            "cy": 463550,
+            "xIn": 3.609722222222222,
+            "yIn": 1.5763888888888888,
+            "wIn": 0.9680555555555556,
+            "hIn": 0.5069444444444444
+          }
+        },
+        {
+          "slide": "slide4",
+          "xfrm": {
+            "x": 7355840,
+            "y": 1441450,
+            "cx": 885190,
+            "cy": 463550,
+            "xIn": 8.044444444444444,
+            "yIn": 1.5763888888888888,
+            "wIn": 0.9680555555555556,
+            "hIn": 0.5069444444444444
+          }
+        }
+      ],
+      "category": "branding"
+    },
+    {
+      "id": "image24",
+      "name": "image24.png",
+      "source": "ppt/media/image24.png",
+      "ext": ".png",
+      "size": 38843,
+      "dimensions": {
+        "height": 561,
+        "width": 1554,
+        "type": "png"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "branding"
+    },
+    {
+      "id": "image25",
+      "name": "image25.png",
+      "source": "ppt/media/image25.png",
+      "ext": ".png",
+      "size": 22460,
+      "dimensions": {
+        "height": 800,
+        "width": 800,
+        "type": "png"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "mixed-media"
+    },
+    {
+      "id": "image26",
+      "name": "image26.svg",
+      "source": "ppt/media/image26.svg",
+      "ext": ".svg",
+      "size": 7178,
+      "dimensions": {
+        "height": 255,
+        "width": 255,
+        "type": "svg"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "vector-icons"
+    },
+    {
+      "id": "image27",
+      "name": "image27.png",
+      "source": "ppt/media/image27.png",
+      "ext": ".png",
+      "size": 14759,
+      "dimensions": {
+        "height": 800,
+        "width": 800,
+        "type": "png"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "mixed-media"
+    },
+    {
+      "id": "image28",
+      "name": "image28.svg",
+      "source": "ppt/media/image28.svg",
+      "ext": ".svg",
+      "size": 5267,
+      "dimensions": {
+        "height": 255,
+        "width": 255,
+        "type": "svg"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "vector-icons"
+    },
+    {
+      "id": "image29",
+      "name": "image29.png",
+      "source": "ppt/media/image29.png",
+      "ext": ".png",
+      "size": 23044,
+      "dimensions": {
+        "height": 800,
+        "width": 800,
+        "type": "png"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "mixed-media"
+    },
+    {
+      "id": "image3",
+      "name": "image3.png",
+      "source": "ppt/media/image3.png",
+      "ext": ".png",
+      "size": 4375,
+      "dimensions": {
+        "height": 67,
+        "width": 420,
+        "type": "png"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "mixed-media"
+    },
+    {
+      "id": "image30",
+      "name": "image30.svg",
+      "source": "ppt/media/image30.svg",
+      "ext": ".svg",
+      "size": 756,
+      "dimensions": {
+        "height": 200,
+        "width": 200,
+        "type": "svg"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "vector-icons"
+    },
+    {
+      "id": "image31",
+      "name": "image31.png",
+      "source": "ppt/media/image31.png",
+      "ext": ".png",
+      "size": 31321,
+      "dimensions": {
+        "height": 800,
+        "width": 800,
+        "type": "png"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "mixed-media"
+    },
+    {
+      "id": "image32",
+      "name": "image32.svg",
+      "source": "ppt/media/image32.svg",
+      "ext": ".svg",
+      "size": 3630,
+      "dimensions": {
+        "height": 200,
+        "width": 200,
+        "type": "svg"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "vector-icons"
+    },
+    {
+      "id": "image33",
+      "name": "image33.png",
+      "source": "ppt/media/image33.png",
+      "ext": ".png",
+      "size": 19825,
+      "dimensions": {
+        "height": 800,
+        "width": 800,
+        "type": "png"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "mixed-media"
+    },
+    {
+      "id": "image34",
+      "name": "image34.svg",
+      "source": "ppt/media/image34.svg",
+      "ext": ".svg",
+      "size": 2393,
+      "dimensions": {
+        "height": 200,
+        "width": 200,
+        "type": "svg"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "vector-icons"
+    },
+    {
+      "id": "image35",
+      "name": "image35.png",
+      "source": "ppt/media/image35.png",
+      "ext": ".png",
+      "size": 21138,
+      "dimensions": {
+        "height": 800,
+        "width": 800,
+        "type": "png"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "mixed-media"
+    },
+    {
+      "id": "image36",
+      "name": "image36.svg",
+      "source": "ppt/media/image36.svg",
+      "ext": ".svg",
+      "size": 3233,
+      "dimensions": {
+        "height": 200,
+        "width": 200,
+        "type": "svg"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "vector-icons"
+    },
+    {
+      "id": "image37",
+      "name": "image37.png",
+      "source": "ppt/media/image37.png",
+      "ext": ".png",
+      "size": 1967,
+      "dimensions": {
+        "height": 70,
+        "width": 582,
+        "type": "png"
+      },
+      "slides": [
+        "slide5"
+      ],
+      "uses": [
+        {
+          "slide": "slide5",
+          "xfrm": {
+            "x": 1854835,
+            "y": 4019612,
+            "cx": 4529455,
+            "cy": 444501,
+            "xIn": 2.0284722222222222,
+            "yIn": 4.39590113735783,
+            "wIn": 4.9534722222222225,
+            "hIn": 0.48611220472440947
+          }
+        },
+        {
+          "slide": "slide5",
+          "xfrm": {
+            "x": 6518909,
+            "y": 1870137,
+            "cx": 4529456,
+            "cy": 444501,
+            "xIn": 7.129165573053369,
+            "yIn": 2.0452066929133856,
+            "wIn": 4.95347331583552,
+            "hIn": 0.48611220472440947
+          }
+        }
+      ],
+      "category": "mixed-media"
+    },
+    {
+      "id": "image38",
+      "name": "image38.png",
+      "source": "ppt/media/image38.png",
+      "ext": ".png",
+      "size": 1940,
+      "dimensions": {
+        "height": 70,
+        "width": 582,
+        "type": "png"
+      },
+      "slides": [
+        "slide5"
+      ],
+      "uses": [
+        {
+          "slide": "slide5",
+          "xfrm": {
+            "x": 1849755,
+            "y": 1870075,
+            "cx": 4631055,
+            "cy": 454660,
+            "xIn": 2.0229166666666667,
+            "yIn": 2.045138888888889,
+            "wIn": 5.064583333333333,
+            "hIn": 0.49722222222222223
+          }
+        },
+        {
+          "slide": "slide5",
+          "xfrm": {
+            "x": 6518909,
+            "y": 4009452,
+            "cx": 4530091,
+            "cy": 444501,
+            "xIn": 7.129165573053369,
+            "yIn": 4.384790026246719,
+            "wIn": 4.954167760279965,
+            "hIn": 0.48611220472440947
+          }
+        }
+      ],
+      "category": "mixed-media"
+    },
+    {
+      "id": "image39",
+      "name": "image39.png",
+      "source": "ppt/media/image39.png",
+      "ext": ".png",
+      "size": 4938,
+      "dimensions": {
+        "height": 200,
+        "width": 200,
+        "type": "png"
+      },
+      "slides": [
+        "slide5"
+      ],
+      "uses": [
+        {
+          "slide": "slide5",
+          "xfrm": {
+            "x": 3910115,
+            "y": 5467887,
+            "cx": 383542,
+            "cy": 383541,
+            "xIn": 4.276153762029746,
+            "yIn": 5.979753937007874,
+            "wIn": 0.4194466316710411,
+            "hIn": 0.41944553805774276
+          }
+        }
+      ],
+      "category": "icons"
+    },
+    {
+      "id": "image4",
+      "name": "image4.png",
+      "source": "ppt/media/image4.png",
+      "ext": ".png",
+      "size": 26533,
+      "dimensions": {
+        "height": 244,
+        "width": 1165,
+        "type": "png"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "mixed-media"
+    },
+    {
+      "id": "image40",
+      "name": "image40.png",
+      "source": "ppt/media/image40.png",
+      "ext": ".png",
+      "size": 4775,
+      "dimensions": {
+        "height": 200,
+        "width": 200,
+        "type": "png"
+      },
+      "slides": [
+        "slide5"
+      ],
+      "uses": [
+        {
+          "slide": "slide5",
+          "xfrm": {
+            "x": 8647151,
+            "y": 5078824,
+            "cx": 274321,
+            "cy": 274321,
+            "xIn": 9.456639326334209,
+            "yIn": 5.55426946631671,
+            "wIn": 0.30000109361329835,
+            "hIn": 0.30000109361329835
+          }
+        }
+      ],
+      "category": "icons"
+    },
+    {
+      "id": "image41",
+      "name": "image41.png",
+      "source": "ppt/media/image41.png",
+      "ext": ".png",
+      "size": 4347,
+      "dimensions": {
+        "height": 200,
+        "width": 200,
+        "type": "png"
+      },
+      "slides": [
+        "slide5"
+      ],
+      "uses": [
+        {
+          "slide": "slide5",
+          "xfrm": {
+            "x": 8588199,
+            "y": 2770285,
+            "cx": 323216,
+            "cy": 323216,
+            "xIn": 9.392168635170604,
+            "yIn": 3.029620516185477,
+            "wIn": 0.35347331583552055,
+            "hIn": 0.35347331583552055
+          }
+        }
+      ],
+      "category": "icons"
+    },
+    {
+      "id": "image42",
+      "name": "image42.png",
+      "source": "ppt/media/image42.png",
+      "ext": ".png",
+      "size": 5145,
+      "dimensions": {
+        "height": 200,
+        "width": 200,
+        "type": "png"
+      },
+      "slides": [
+        "slide5"
+      ],
+      "uses": [
+        {
+          "slide": "slide5",
+          "xfrm": {
+            "x": 3762904,
+            "y": 2782455,
+            "cx": 382271,
+            "cy": 382271,
+            "xIn": 4.115161854768154,
+            "yIn": 3.0429297900262466,
+            "wIn": 0.4180566491688539,
+            "hIn": 0.4180566491688539
+          }
+        }
+      ],
+      "category": "icons"
+    },
+    {
+      "id": "image43",
+      "name": "image43.png",
+      "source": "ppt/media/image43.png",
+      "ext": ".png",
+      "size": 45188,
+      "dimensions": {
+        "height": 280,
+        "width": 361,
+        "type": "png"
+      },
+      "slides": [
+        "slide6"
+      ],
+      "uses": [
+        {
+          "slide": "slide6",
+          "xfrm": {
+            "x": 5929630,
+            "y": 3724275,
+            "cx": 1132840,
+            "cy": 878840,
+            "xIn": 6.4847222222222225,
+            "yIn": 4.072916666666667,
+            "wIn": 1.238888888888889,
+            "hIn": 0.9611111111111111
+          }
+        }
+      ],
+      "category": "icons"
+    },
+    {
+      "id": "image44",
+      "name": "image44.png",
+      "source": "ppt/media/image44.png",
+      "ext": ".png",
+      "size": 34494,
+      "dimensions": {
+        "height": 241,
+        "width": 341,
+        "type": "png"
+      },
+      "slides": [
+        "slide6"
+      ],
+      "uses": [
+        {
+          "slide": "slide6",
+          "xfrm": {
+            "x": 9919970,
+            "y": 3809365,
+            "cx": 1132840,
+            "cy": 800735,
+            "xIn": 10.848611111111111,
+            "yIn": 4.165972222222222,
+            "wIn": 1.238888888888889,
+            "hIn": 0.8756944444444444
+          }
+        }
+      ],
+      "category": "icons"
+    },
+    {
+      "id": "image45",
+      "name": "image45.png",
+      "source": "ppt/media/image45.png",
+      "ext": ".png",
+      "size": 92537,
+      "dimensions": {
+        "height": 815,
+        "width": 816,
+        "type": "png"
+      },
+      "slides": [
+        "slide6"
+      ],
+      "uses": [
+        {
+          "slide": "slide6",
+          "xfrm": {
+            "x": 2518410,
+            "y": 2922905,
+            "cx": 466725,
+            "cy": 466090,
+            "xIn": 2.754166666666667,
+            "yIn": 3.196527777777778,
+            "wIn": 0.5104166666666666,
+            "hIn": 0.5097222222222222
+          }
+        },
+        {
+          "slide": "slide6",
+          "xfrm": {
+            "x": 2518410,
+            "y": 4042410,
+            "cx": 466090,
+            "cy": 466090,
+            "xIn": 2.754166666666667,
+            "yIn": 4.420833333333333,
+            "wIn": 0.5097222222222222,
+            "hIn": 0.5097222222222222
+          }
+        }
+      ],
+      "category": "mixed-media"
+    },
+    {
+      "id": "image46",
+      "name": "image46.webp",
+      "source": "ppt/media/image46.webp",
+      "ext": ".webp",
+      "size": 6644,
+      "dimensions": {
+        "height": 240,
+        "width": 240,
+        "type": "webp"
+      },
+      "slides": [
+        "slide6"
+      ],
+      "uses": [
+        {
+          "slide": "slide6",
+          "xfrm": {
+            "x": 807085,
+            "y": 2668905,
+            "cx": 351790,
+            "cy": 351790,
+            "xIn": 0.8826388888888889,
+            "yIn": 2.91875,
+            "wIn": 0.38472222222222224,
+            "hIn": 0.38472222222222224
+          }
+        },
+        {
+          "slide": "slide6",
+          "xfrm": {
+            "x": 807085,
+            "y": 3754120,
+            "cx": 351790,
+            "cy": 351790,
+            "xIn": 0.8826388888888889,
+            "yIn": 4.105555555555555,
+            "wIn": 0.38472222222222224,
+            "hIn": 0.38472222222222224
+          }
+        },
+        {
+          "slide": "slide6",
+          "xfrm": {
+            "x": 807085,
+            "y": 4803775,
+            "cx": 351790,
+            "cy": 351790,
+            "xIn": 0.8826388888888889,
+            "yIn": 5.253472222222222,
+            "wIn": 0.38472222222222224,
+            "hIn": 0.38472222222222224
+          }
+        }
+      ],
+      "category": "icons"
+    },
+    {
+      "id": "image47",
+      "name": "image47.png",
+      "source": "ppt/media/image47.png",
+      "ext": ".png",
+      "size": 531014,
+      "dimensions": {
+        "height": 1920,
+        "width": 883,
+        "type": "png"
+      },
+      "slides": [
+        "slide7"
+      ],
+      "uses": [
+        {
+          "slide": "slide7",
+          "xfrm": {
+            "x": 7713345,
+            "y": 3597275,
+            "cx": 1301750,
+            "cy": 2303145,
+            "xIn": 8.435416666666667,
+            "yIn": 3.9340277777777777,
+            "wIn": 1.4236111111111112,
+            "hIn": 2.51875
+          }
+        }
+      ],
+      "category": "screenshots-charts"
+    },
+    {
+      "id": "image48",
+      "name": "image48.png",
+      "source": "ppt/media/image48.png",
+      "ext": ".png",
+      "size": 1408,
+      "dimensions": {
+        "height": 48,
+        "width": 479,
+        "type": "png"
+      },
+      "slides": [
+        "slide8"
+      ],
+      "uses": [
+        {
+          "slide": "slide8",
+          "xfrm": {
+            "x": 6955790,
+            "y": 1943100,
+            "cx": 4147820,
+            "cy": 362585,
+            "xIn": 7.606944444444444,
+            "yIn": 2.125,
+            "wIn": 4.536111111111111,
+            "hIn": 0.39652777777777776
+          }
+        },
+        {
+          "slide": "slide8",
+          "xfrm": {
+            "x": 7010400,
+            "y": 4100830,
+            "cx": 4195445,
+            "cy": 362585,
+            "xIn": 7.666666666666667,
+            "yIn": 4.4847222222222225,
+            "wIn": 4.5881944444444445,
+            "hIn": 0.39652777777777776
+          }
+        }
+      ],
+      "category": "mixed-media"
+    },
+    {
+      "id": "image49",
+      "name": "image49.png",
+      "source": "ppt/media/image49.png",
+      "ext": ".png",
+      "size": 56262,
+      "dimensions": {
+        "height": 230,
+        "width": 1474,
+        "type": "png"
+      },
+      "slides": [
+        "slide8"
+      ],
+      "uses": [
+        {
+          "slide": "slide8",
+          "xfrm": {
+            "x": 6983730,
+            "y": 3467735,
+            "cx": 4197350,
+            "cy": 584200,
+            "xIn": 7.6375,
+            "yIn": 3.792361111111111,
+            "wIn": 4.590277777777778,
+            "hIn": 0.6388888888888888
+          }
+        }
+      ],
+      "category": "screenshots-charts"
+    },
+    {
+      "id": "image5",
+      "name": "image5.png",
+      "source": "ppt/media/image5.png",
+      "ext": ".png",
+      "size": 3411,
+      "dimensions": {
+        "height": 40,
+        "width": 322,
+        "type": "png"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "icons"
+    },
+    {
+      "id": "image50",
+      "name": "image50.png",
+      "source": "ppt/media/image50.png",
+      "ext": ".png",
+      "size": 4539,
+      "dimensions": {
+        "height": 94,
+        "width": 846,
+        "type": "png"
+      },
+      "slides": [
+        "slide8"
+      ],
+      "uses": [
+        {
+          "slide": "slide8",
+          "xfrm": {
+            "x": 1681480,
+            "y": 1920240,
+            "cx": 5118100,
+            "cy": 591185,
+            "xIn": 1.8388888888888888,
+            "yIn": 2.1,
+            "wIn": 5.597222222222222,
+            "hIn": 0.6465277777777778
+          }
+        }
+      ],
+      "category": "mixed-media"
+    },
+    {
+      "id": "image51",
+      "name": "image51.png",
+      "source": "ppt/media/image51.png",
+      "ext": ".png",
+      "size": 75054,
+      "dimensions": {
+        "height": 370,
+        "width": 829,
+        "type": "png"
+      },
+      "slides": [
+        "slide8"
+      ],
+      "uses": [
+        {
+          "slide": "slide8",
+          "xfrm": {
+            "x": 599440,
+            "y": 3832225,
+            "cx": 2648585,
+            "cy": 1182370,
+            "xIn": 0.6555555555555556,
+            "yIn": 4.190972222222222,
+            "wIn": 2.8965277777777776,
+            "hIn": 1.2930555555555556
+          }
+        }
+      ],
+      "category": "mixed-media"
+    },
+    {
+      "id": "image52",
+      "name": "image52.png",
+      "source": "ppt/media/image52.png",
+      "ext": ".png",
+      "size": 402203,
+      "dimensions": {
+        "height": 399,
+        "width": 856,
+        "type": "png"
+      },
+      "slides": [
+        "slide8"
+      ],
+      "uses": [
+        {
+          "slide": "slide8",
+          "xfrm": {
+            "x": 3910965,
+            "y": 3832225,
+            "cx": 2716530,
+            "cy": 1267460,
+            "xIn": 4.277083333333334,
+            "yIn": 4.190972222222222,
+            "wIn": 2.970833333333333,
+            "hIn": 1.386111111111111
+          }
+        }
+      ],
+      "category": "screenshots-charts"
+    },
+    {
+      "id": "image53",
+      "name": "image53.png",
+      "source": "ppt/media/image53.png",
+      "ext": ".png",
+      "size": 59662,
+      "dimensions": {
+        "height": 563,
+        "width": 178,
+        "type": "png"
+      },
+      "slides": [
+        "slide9"
+      ],
+      "uses": [
+        {
+          "slide": "slide9",
+          "xfrm": {
+            "x": 10121265,
+            "y": 1659255,
+            "cx": 1334770,
+            "cy": 4222115,
+            "xIn": 11.06875,
+            "yIn": 1.8145833333333334,
+            "wIn": 1.4597222222222221,
+            "hIn": 4.617361111111111
+          }
+        }
+      ],
+      "category": "mixed-media"
+    },
+    {
+      "id": "image6",
+      "name": "image6.png",
+      "source": "ppt/media/image6.png",
+      "ext": ".png",
+      "size": 2157,
+      "dimensions": {
+        "height": 39,
+        "width": 317,
+        "type": "png"
+      },
+      "slides": [],
+      "uses": [],
+      "category": "icons"
+    },
+    {
+      "id": "image7",
+      "name": "image7.png",
+      "source": "ppt/media/image7.png",
+      "ext": ".png",
+      "size": 20635,
+      "dimensions": {
+        "height": 249,
+        "width": 332,
+        "type": "png"
+      },
+      "slides": [
+        "slide2"
+      ],
+      "uses": [
+        {
+          "slide": "slide2",
+          "xfrm": {
+            "x": 2218055,
+            "y": 2420620,
+            "cx": 796290,
+            "cy": 597535,
+            "xIn": 2.4256944444444444,
+            "yIn": 2.647222222222222,
+            "wIn": 0.8708333333333333,
+            "hIn": 0.6534722222222222
+          }
+        }
+      ],
+      "category": "icons"
+    },
+    {
+      "id": "image8",
+      "name": "image8.png",
+      "source": "ppt/media/image8.png",
+      "ext": ".png",
+      "size": 414605,
+      "dimensions": {
+        "height": 788,
+        "width": 937,
+        "type": "png"
+      },
+      "slides": [
+        "slide2"
+      ],
+      "uses": [
+        {
+          "slide": "slide2",
+          "xfrm": {
+            "x": 4679315,
+            "y": 2560320,
+            "cx": 817245,
+            "cy": 687705,
+            "xIn": 5.117361111111111,
+            "yIn": 2.8,
+            "wIn": 0.89375,
+            "hIn": 0.7520833333333333
+          }
+        }
+      ],
+      "category": "screenshots-charts"
+    },
+    {
+      "id": "image9",
+      "name": "image9.png",
+      "source": "ppt/media/image9.png",
+      "ext": ".png",
+      "size": 1115773,
+      "dimensions": {
+        "height": 798,
+        "width": 2134,
+        "type": "png"
+      },
+      "slides": [
+        "slide2"
+      ],
+      "uses": [
+        {
+          "slide": "slide2",
+          "xfrm": {
+            "x": 9298305,
+            "y": 3263900,
+            "cx": 1810385,
+            "cy": 2654935,
+            "xIn": 10.16875,
+            "yIn": 3.5694444444444446,
+            "wIn": 1.979861111111111,
+            "hIn": 2.9034722222222222
+          }
+        }
+      ],
+      "category": "screenshots-charts"
+    }
+  ],
+  "slideSummaries": [
+    {
+      "slide": "slide1",
+      "source": "ppt/slides/slide1.xml",
+      "shapes": 2,
+      "pictures": 0,
+      "tables": 0,
+      "dominantShapePresets": [
+        {
+          "name": "rect",
+          "count": 2
+        }
+      ],
+      "topTexts": [
+        {
+          "text": "以责任担当保障系统稳定，以专业能力驱动业务发展",
+          "font": "",
+          "size": 32,
+          "color": ""
+        },
+        {
+          "text": "以",
+          "font": "",
+          "size": 32,
+          "color": ""
+        },
+        {
+          "text": "AI",
+          "font": "",
+          "size": 32,
+          "color": ""
+        },
+        {
+          "text": "技术",
+          "font": "",
+          "size": 32,
+          "color": ""
+        },
+        {
+          "text": "助力研发提质增效，以模型分析赋能业务价值创造",
+          "font": "",
+          "size": 32,
+          "color": ""
+        },
+        {
+          "text": "西安",
+          "font": "",
+          "size": 24,
+          "color": "006544"
+        },
+        {
+          "text": "xxxx",
+          "font": "",
+          "size": 24,
+          "color": "006544"
+        },
+        {
+          "text": "二处",
+          "font": "",
+          "size": 24,
+          "color": "006544"
+        },
+        {
+          "text": "汇报人：张",
+          "font": "",
+          "size": 24,
+          "color": "006544"
+        },
+        {
+          "text": "x",
+          "font": "",
+          "size": 24,
+          "color": "006544"
+        }
+      ],
+      "media": []
+    },
+    {
+      "slide": "slide2",
+      "source": "ppt/slides/slide2.xml",
+      "shapes": 41,
+      "pictures": 3,
+      "tables": 0,
+      "dominantShapePresets": [
+        {
+          "name": "rect",
+          "count": 31
+        },
+        {
+          "name": "custom",
+          "count": 3
+        },
+        {
+          "name": "wedgeRectCallout",
+          "count": 3
+        },
+        {
+          "name": "chevron",
+          "count": 2
+        },
+        {
+          "name": "ellipse",
+          "count": 1
+        },
+        {
+          "name": "homePlate",
+          "count": 1
+        }
+      ],
+      "topTexts": [
+        {
+          "text": "1",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "稳步推进工程建设任务，支撑业务高质量发展",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "聚焦主业",
+          "font": "微软雅黑",
+          "size": 14,
+          "color": "scheme:bg1"
+        },
+        {
+          "text": "1:",
+          "font": "微软雅黑",
+          "size": 14,
+          "color": "006544"
+        },
+        {
+          "text": "直接经济效益突出",
+          "font": "微软雅黑",
+          "size": 14,
+          "color": "006544"
+        },
+        {
+          "text": "2:",
+          "font": "微软雅黑",
+          "size": 14,
+          "color": "006544"
+        },
+        {
+          "text": "风险防控扎实有效",
+          "font": "微软雅黑",
+          "size": 14,
+          "color": "006544"
+        },
+        {
+          "text": "3:",
+          "font": "微软雅黑",
+          "size": 14,
+          "color": "006544"
+        },
+        {
+          "text": "业技融合深化赋能",
+          "font": "微软雅黑",
+          "size": 14,
+          "color": "006544"
+        },
+        {
+          "text": "信贷零售老客营销策略优化，",
+          "font": "微软雅黑",
+          "size": 10,
+          "color": ""
+        }
+      ],
+      "media": [
+        {
+          "file": "image7.png",
+          "xfrm": {
+            "x": 2218055,
+            "y": 2420620,
+            "cx": 796290,
+            "cy": 597535,
+            "xIn": 2.4256944444444444,
+            "yIn": 2.647222222222222,
+            "wIn": 0.8708333333333333,
+            "hIn": 0.6534722222222222
+          }
+        },
+        {
+          "file": "image8.png",
+          "xfrm": {
+            "x": 4679315,
+            "y": 2560320,
+            "cx": 817245,
+            "cy": 687705,
+            "xIn": 5.117361111111111,
+            "yIn": 2.8,
+            "wIn": 0.89375,
+            "hIn": 0.7520833333333333
+          }
+        },
+        {
+          "file": "image9.png",
+          "xfrm": {
+            "x": 9298305,
+            "y": 3263900,
+            "cx": 1810385,
+            "cy": 2654935,
+            "xIn": 10.16875,
+            "yIn": 3.5694444444444446,
+            "wIn": 1.979861111111111,
+            "hIn": 2.9034722222222222
+          }
+        }
+      ]
+    },
+    {
+      "slide": "slide3",
+      "source": "ppt/slides/slide3.xml",
+      "shapes": 56,
+      "pictures": 12,
+      "tables": 0,
+      "dominantShapePresets": [
+        {
+          "name": "rect",
+          "count": 35
+        },
+        {
+          "name": "star5",
+          "count": 6
+        },
+        {
+          "name": "roundRect",
+          "count": 5
+        },
+        {
+          "name": "custom",
+          "count": 4
+        },
+        {
+          "name": "line",
+          "count": 4
+        },
+        {
+          "name": "trapezoid",
+          "count": 1
+        },
+        {
+          "name": "homePlate",
+          "count": 1
+        }
+      ],
+      "topTexts": [
+        {
+          "text": "2",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "筑牢业技融合根基，聚力提升核心业务价值",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "为提前防范化解资金风险，",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "全年累计上线交易级业务监控8",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "x",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "项，监测到有效告警4",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "x",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "次；",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "重视客户体验，对",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "1.x",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": "scheme:tx1"
+        }
+      ],
+      "media": [
+        {
+          "file": "image10.png",
+          "xfrm": {
+            "x": 452750,
+            "y": 3376118,
+            "cx": 2422208,
+            "cy": 391202,
+            "xIn": 0.4951334208223972,
+            "yIn": 3.692167541557305,
+            "wIn": 2.6489588801399826,
+            "hIn": 0.42782370953630794
+          }
+        },
+        {
+          "file": "image10.png",
+          "xfrm": {
+            "x": 428288,
+            "y": 1605825,
+            "cx": 2422208,
+            "cy": 391202,
+            "xIn": 0.4683814523184602,
+            "yIn": 1.7561515748031495,
+            "wIn": 2.6489588801399826,
+            "hIn": 0.42782370953630794
+          }
+        },
+        {
+          "file": "image11.png",
+          "xfrm": {
+            "x": 601689,
+            "y": 1715027,
+            "cx": 228001,
+            "cy": 228001,
+            "xIn": 0.658015091863517,
+            "yIn": 1.875576334208224,
+            "wIn": 0.24934492563429572,
+            "hIn": 0.24934492563429572
+          }
+        },
+        {
+          "file": "image12.png",
+          "xfrm": {
+            "x": 623049,
+            "y": 3474086,
+            "cx": 261602,
+            "cy": 261602,
+            "xIn": 0.6813746719160105,
+            "yIn": 3.799306649168854,
+            "wIn": 0.28609142607174104,
+            "hIn": 0.28609142607174104
+          }
+        },
+        {
+          "file": "image10.png",
+          "xfrm": {
+            "x": 5496656,
+            "y": 1624919,
+            "cx": 2422208,
+            "cy": 391202,
+            "xIn": 6.011216097987751,
+            "yIn": 1.7770330271216097,
+            "wIn": 2.6489588801399826,
+            "hIn": 0.42782370953630794
+          }
+        },
+        {
+          "file": "image16.png",
+          "xfrm": {
+            "x": 5680857,
+            "y": 1743294,
+            "cx": 217801,
+            "cy": 217801,
+            "xIn": 6.212660761154855,
+            "yIn": 1.906489501312336,
+            "wIn": 0.23819006999125109,
+            "hIn": 0.23819006999125109
+          }
+        },
+        {
+          "file": "image17.png",
+          "xfrm": {
+            "x": 10643327,
+            "y": 5147874,
+            "cx": 378606,
+            "cy": 384606,
+            "xIn": 11.639683945756781,
+            "yIn": 5.62978346456693,
+            "wIn": 0.4140485564304462,
+            "hIn": 0.42061023622047244
+          }
+        },
+        {
+          "file": "image18.png",
+          "xfrm": {
+            "x": 5792781,
+            "y": 4150908,
+            "cx": 911413,
+            "cy": 651610,
+            "xIn": 6.335062335958005,
+            "yIn": 4.539488188976378,
+            "wIn": 0.9967333770778652,
+            "hIn": 0.7126093613298338
+          }
+        },
+        {
+          "file": "image19.png",
+          "xfrm": {
+            "x": 7238203,
+            "y": 4224709,
+            "cx": 935414,
+            "cy": 577809,
+            "xIn": 7.915795056867892,
+            "yIn": 4.620197944006999,
+            "wIn": 1.0229811898512686,
+            "hIn": 0.6318996062992126
+          }
+        },
+        {
+          "file": "image20.png",
+          "xfrm": {
+            "x": 6876397,
+            "y": 4444913,
+            "cx": 199803,
+            "cy": 171603,
+            "xIn": 7.520119203849519,
+            "yIn": 4.861015966754156,
+            "wIn": 0.21850721784776903,
+            "hIn": 0.18766732283464566
+          }
+        },
+        {
+          "file": "image21.png",
+          "xfrm": {
+            "x": 6638794,
+            "y": 5534261,
+            "cx": 278404,
+            "cy": 278404,
+            "xIn": 7.260273403324584,
+            "yIn": 6.052341426071741,
+            "wIn": 0.3044663167104112,
+            "hIn": 0.3044663167104112
+          }
+        },
+        {
+          "file": "image20.png",
+          "xfrm": {
+            "x": 6833797,
+            "y": 5551661,
+            "cx": 124802,
+            "cy": 107402,
+            "xIn": 7.473531277340332,
+            "yIn": 6.071370297462817,
+            "wIn": 0.1364851268591426,
+            "hIn": 0.1174562554680665
+          }
+        }
+      ]
+    },
+    {
+      "slide": "slide4",
+      "source": "ppt/slides/slide4.xml",
+      "shapes": 16,
+      "pictures": 2,
+      "tables": 0,
+      "dominantShapePresets": [
+        {
+          "name": "rect",
+          "count": 9
+        },
+        {
+          "name": "parallelogram",
+          "count": 3
+        },
+        {
+          "name": "roundRect",
+          "count": 3
+        },
+        {
+          "name": "custom",
+          "count": 1
+        }
+      ],
+      "topTexts": [
+        {
+          "text": "2026",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "重点工作",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "1",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "：",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "强化队伍建设",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "结合队伍年轻化实际，坚定培养年轻人，在",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": ""
+        },
+        {
+          "text": "实战中磨砺其专业能力，深化",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": ""
+        },
+        {
+          "text": "四级人才梯队建设，为不同层级人才铺就差异化成长赛道，同步精细化做好员工日常管理，",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": ""
+        },
+        {
+          "text": "坚定培养年轻人",
+          "font": "微软雅黑",
+          "size": 14,
+          "color": "086346"
+        },
+        {
+          "text": "培养人才",
+          "font": "微软雅黑",
+          "size": 20,
+          "color": "FFFFFF"
+        }
+      ],
+      "media": [
+        {
+          "file": "image23.png",
+          "xfrm": {
+            "x": 3300730,
+            "y": 1441450,
+            "cx": 885190,
+            "cy": 463550,
+            "xIn": 3.609722222222222,
+            "yIn": 1.5763888888888888,
+            "wIn": 0.9680555555555556,
+            "hIn": 0.5069444444444444
+          }
+        },
+        {
+          "file": "image23.png",
+          "xfrm": {
+            "x": 7355840,
+            "y": 1441450,
+            "cx": 885190,
+            "cy": 463550,
+            "xIn": 8.044444444444444,
+            "yIn": 1.5763888888888888,
+            "wIn": 0.9680555555555556,
+            "hIn": 0.5069444444444444
+          }
+        }
+      ]
+    },
+    {
+      "slide": "slide5",
+      "source": "ppt/slides/slide5.xml",
+      "shapes": 36,
+      "pictures": 8,
+      "tables": 0,
+      "dominantShapePresets": [
+        {
+          "name": "rect",
+          "count": 23
+        },
+        {
+          "name": "custom",
+          "count": 11
+        },
+        {
+          "name": "roundRect",
+          "count": 1
+        },
+        {
+          "name": "rightArrow",
+          "count": 1
+        }
+      ],
+      "topTexts": [
+        {
+          "text": "2026",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "重点工作",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "2",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "：",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "保障生产稳定",
+          "font": "",
+          "size": 0,
+          "color": ""
+        },
+        {
+          "text": "优化已上线监控阈值，提升预警精准度；针对重点、堵点、痛点场景扩大监控指标范围，建",
+          "font": "微软雅黑",
+          "size": 14,
+          "color": ""
+        },
+        {
+          "text": "第一时间识别风险、",
+          "font": "微软雅黑",
+          "size": 14,
+          "color": ""
+        },
+        {
+          "text": "第一时间介入、第一时间处置，",
+          "font": "微软雅黑",
+          "size": 14,
+          "color": ""
+        },
+        {
+          "text": "保障风险识别",
+          "font": "微软雅黑",
+          "size": 14,
+          "color": ""
+        },
+        {
+          "text": "->",
+          "font": "微软雅黑",
+          "size": 14,
+          "color": ""
+        }
+      ],
+      "media": [
+        {
+          "file": "image37.png",
+          "xfrm": {
+            "x": 1854835,
+            "y": 4019612,
+            "cx": 4529455,
+            "cy": 444501,
+            "xIn": 2.0284722222222222,
+            "yIn": 4.39590113735783,
+            "wIn": 4.9534722222222225,
+            "hIn": 0.48611220472440947
+          }
+        },
+        {
+          "file": "image37.png",
+          "xfrm": {
+            "x": 6518909,
+            "y": 1870137,
+            "cx": 4529456,
+            "cy": 444501,
+            "xIn": 7.129165573053369,
+            "yIn": 2.0452066929133856,
+            "wIn": 4.95347331583552,
+            "hIn": 0.48611220472440947
+          }
+        },
+        {
+          "file": "image38.png",
+          "xfrm": {
+            "x": 1849755,
+            "y": 1870075,
+            "cx": 4631055,
+            "cy": 454660,
+            "xIn": 2.0229166666666667,
+            "yIn": 2.045138888888889,
+            "wIn": 5.064583333333333,
+            "hIn": 0.49722222222222223
+          }
+        },
+        {
+          "file": "image38.png",
+          "xfrm": {
+            "x": 6518909,
+            "y": 4009452,
+            "cx": 4530091,
+            "cy": 444501,
+            "xIn": 7.129165573053369,
+            "yIn": 4.384790026246719,
+            "wIn": 4.954167760279965,
+            "hIn": 0.48611220472440947
+          }
+        },
+        {
+          "file": "image39.png",
+          "xfrm": {
+            "x": 3910115,
+            "y": 5467887,
+            "cx": 383542,
+            "cy": 383541,
+            "xIn": 4.276153762029746,
+            "yIn": 5.979753937007874,
+            "wIn": 0.4194466316710411,
+            "hIn": 0.41944553805774276
+          }
+        },
+        {
+          "file": "image40.png",
+          "xfrm": {
+            "x": 8647151,
+            "y": 5078824,
+            "cx": 274321,
+            "cy": 274321,
+            "xIn": 9.456639326334209,
+            "yIn": 5.55426946631671,
+            "wIn": 0.30000109361329835,
+            "hIn": 0.30000109361329835
+          }
+        },
+        {
+          "file": "image41.png",
+          "xfrm": {
+            "x": 8588199,
+            "y": 2770285,
+            "cx": 323216,
+            "cy": 323216,
+            "xIn": 9.392168635170604,
+            "yIn": 3.029620516185477,
+            "wIn": 0.35347331583552055,
+            "hIn": 0.35347331583552055
+          }
+        },
+        {
+          "file": "image42.png",
+          "xfrm": {
+            "x": 3762904,
+            "y": 2782455,
+            "cx": 382271,
+            "cy": 382271,
+            "xIn": 4.115161854768154,
+            "yIn": 3.0429297900262466,
+            "wIn": 0.4180566491688539,
+            "hIn": 0.4180566491688539
+          }
+        }
+      ]
+    },
+    {
+      "slide": "slide6",
+      "source": "ppt/slides/slide6.xml",
+      "shapes": 35,
+      "pictures": 7,
+      "tables": 0,
+      "dominantShapePresets": [
+        {
+          "name": "rect",
+          "count": 14
+        },
+        {
+          "name": "round2DiagRect",
+          "count": 9
+        },
+        {
+          "name": "wedgeRoundRectCallout",
+          "count": 4
+        },
+        {
+          "name": "ellipse",
+          "count": 4
+        },
+        {
+          "name": "rightArrow",
+          "count": 3
+        },
+        {
+          "name": "custom",
+          "count": 1
+        }
+      ],
+      "topTexts": [
+        {
+          "text": "2026",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "重点工作",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "3",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "：完善",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "业务监控",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "继续将系统稳定性建设作为最高优先级目标，一是建立各系统全局性风险点台账并例行跟踪",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "大额",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "阈值，信贷、网贷、征信等继续丰富业务级监控范围；三是建设系统间共享应急工具，做到",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "处室承建信贷类业务系统，继续完善业务监控至关重要，将从以下四个方面开展：",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": ""
+        },
+        {
+          "text": "一是",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": ""
+        }
+      ],
+      "media": [
+        {
+          "file": "image43.png",
+          "xfrm": {
+            "x": 5929630,
+            "y": 3724275,
+            "cx": 1132840,
+            "cy": 878840,
+            "xIn": 6.4847222222222225,
+            "yIn": 4.072916666666667,
+            "wIn": 1.238888888888889,
+            "hIn": 0.9611111111111111
+          }
+        },
+        {
+          "file": "image44.png",
+          "xfrm": {
+            "x": 9919970,
+            "y": 3809365,
+            "cx": 1132840,
+            "cy": 800735,
+            "xIn": 10.848611111111111,
+            "yIn": 4.165972222222222,
+            "wIn": 1.238888888888889,
+            "hIn": 0.8756944444444444
+          }
+        },
+        {
+          "file": "image45.png",
+          "xfrm": {
+            "x": 2518410,
+            "y": 2922905,
+            "cx": 466725,
+            "cy": 466090,
+            "xIn": 2.754166666666667,
+            "yIn": 3.196527777777778,
+            "wIn": 0.5104166666666666,
+            "hIn": 0.5097222222222222
+          }
+        },
+        {
+          "file": "image45.png",
+          "xfrm": {
+            "x": 2518410,
+            "y": 4042410,
+            "cx": 466090,
+            "cy": 466090,
+            "xIn": 2.754166666666667,
+            "yIn": 4.420833333333333,
+            "wIn": 0.5097222222222222,
+            "hIn": 0.5097222222222222
+          }
+        },
+        {
+          "file": "image46.webp",
+          "xfrm": {
+            "x": 807085,
+            "y": 2668905,
+            "cx": 351790,
+            "cy": 351790,
+            "xIn": 0.8826388888888889,
+            "yIn": 2.91875,
+            "wIn": 0.38472222222222224,
+            "hIn": 0.38472222222222224
+          }
+        },
+        {
+          "file": "image46.webp",
+          "xfrm": {
+            "x": 807085,
+            "y": 3754120,
+            "cx": 351790,
+            "cy": 351790,
+            "xIn": 0.8826388888888889,
+            "yIn": 4.105555555555555,
+            "wIn": 0.38472222222222224,
+            "hIn": 0.38472222222222224
+          }
+        },
+        {
+          "file": "image46.webp",
+          "xfrm": {
+            "x": 807085,
+            "y": 4803775,
+            "cx": 351790,
+            "cy": 351790,
+            "xIn": 0.8826388888888889,
+            "yIn": 5.253472222222222,
+            "wIn": 0.38472222222222224,
+            "hIn": 0.38472222222222224
+          }
+        }
+      ]
+    },
+    {
+      "slide": "slide7",
+      "source": "ppt/slides/slide7.xml",
+      "shapes": 26,
+      "pictures": 1,
+      "tables": 0,
+      "dominantShapePresets": [
+        {
+          "name": "rect",
+          "count": 12
+        },
+        {
+          "name": "roundRect",
+          "count": 7
+        },
+        {
+          "name": "custom",
+          "count": 3
+        },
+        {
+          "name": "ellipse",
+          "count": 3
+        },
+        {
+          "name": "wedgeRoundRectCallout",
+          "count": 1
+        }
+      ],
+      "topTexts": [
+        {
+          "text": "2026重点工作4：",
+          "font": "微软雅黑",
+          "size": 20,
+          "color": "404040"
+        },
+        {
+          "text": "推动研发办公提质增效",
+          "font": "微软雅黑",
+          "size": 20,
+          "color": "404040"
+        },
+        {
+          "text": "当前已试点应用",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": ""
+        },
+        {
+          "text": "OpenCode",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": ""
+        },
+        {
+          "text": "，辅助编写需规及前后端代码，下一步将深化场景融合，",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": ""
+        },
+        {
+          "text": "加大行内大模型智能研发辅助工具应用",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": ""
+        },
+        {
+          "text": "，以AI工具赋能研发全流程",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": ""
+        },
+        {
+          "text": "，",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": ""
+        },
+        {
+          "text": "同时加强邮连智能体广场综合办公等功能应用",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": ""
+        },
+        {
+          "text": "，提升办公效能。",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": ""
+        }
+      ],
+      "media": [
+        {
+          "file": "image47.png",
+          "xfrm": {
+            "x": 7713345,
+            "y": 3597275,
+            "cx": 1301750,
+            "cy": 2303145,
+            "xIn": 8.435416666666667,
+            "yIn": 3.9340277777777777,
+            "wIn": 1.4236111111111112,
+            "hIn": 2.51875
+          }
+        }
+      ]
+    },
+    {
+      "slide": "slide8",
+      "source": "ppt/slides/slide8.xml",
+      "shapes": 43,
+      "pictures": 6,
+      "tables": 0,
+      "dominantShapePresets": [
+        {
+          "name": "rect",
+          "count": 24
+        },
+        {
+          "name": "roundRect",
+          "count": 12
+        },
+        {
+          "name": "ellipse",
+          "count": 4
+        },
+        {
+          "name": "rightArrow",
+          "count": 2
+        },
+        {
+          "name": "custom",
+          "count": 1
+        }
+      ],
+      "topTexts": [
+        {
+          "text": "2026",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "重点工作",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "5",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "：深化",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "客户体验",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "加强事件单处理，",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "大模型+人工双重分析数据，分类分级治理，",
+          "font": "",
+          "size": 16,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "减少重复问题发生，",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "实现生产事件单精准管控与有效压降。",
+          "font": "微软雅黑",
+          "size": 16,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "建立常态化分享机制，培养团队的客户体验意识，积极",
+          "font": "",
+          "size": 0,
+          "color": "000000"
+        }
+      ],
+      "media": [
+        {
+          "file": "image48.png",
+          "xfrm": {
+            "x": 6955790,
+            "y": 1943100,
+            "cx": 4147820,
+            "cy": 362585,
+            "xIn": 7.606944444444444,
+            "yIn": 2.125,
+            "wIn": 4.536111111111111,
+            "hIn": 0.39652777777777776
+          }
+        },
+        {
+          "file": "image49.png",
+          "xfrm": {
+            "x": 6983730,
+            "y": 3467735,
+            "cx": 4197350,
+            "cy": 584200,
+            "xIn": 7.6375,
+            "yIn": 3.792361111111111,
+            "wIn": 4.590277777777778,
+            "hIn": 0.6388888888888888
+          }
+        },
+        {
+          "file": "image48.png",
+          "xfrm": {
+            "x": 7010400,
+            "y": 4100830,
+            "cx": 4195445,
+            "cy": 362585,
+            "xIn": 7.666666666666667,
+            "yIn": 4.4847222222222225,
+            "wIn": 4.5881944444444445,
+            "hIn": 0.39652777777777776
+          }
+        },
+        {
+          "file": "image50.png",
+          "xfrm": {
+            "x": 1681480,
+            "y": 1920240,
+            "cx": 5118100,
+            "cy": 591185,
+            "xIn": 1.8388888888888888,
+            "yIn": 2.1,
+            "wIn": 5.597222222222222,
+            "hIn": 0.6465277777777778
+          }
+        },
+        {
+          "file": "image51.png",
+          "xfrm": {
+            "x": 599440,
+            "y": 3832225,
+            "cx": 2648585,
+            "cy": 1182370,
+            "xIn": 0.6555555555555556,
+            "yIn": 4.190972222222222,
+            "wIn": 2.8965277777777776,
+            "hIn": 1.2930555555555556
+          }
+        },
+        {
+          "file": "image52.png",
+          "xfrm": {
+            "x": 3910965,
+            "y": 3832225,
+            "cx": 2716530,
+            "cy": 1267460,
+            "xIn": 4.277083333333334,
+            "yIn": 4.190972222222222,
+            "wIn": 2.970833333333333,
+            "hIn": 1.386111111111111
+          }
+        }
+      ]
+    },
+    {
+      "slide": "slide9",
+      "source": "ppt/slides/slide9.xml",
+      "shapes": 8,
+      "pictures": 1,
+      "tables": 0,
+      "dominantShapePresets": [
+        {
+          "name": "rect",
+          "count": 5
+        },
+        {
+          "name": "ellipse",
+          "count": 2
+        },
+        {
+          "name": "custom",
+          "count": 1
+        }
+      ],
+      "topTexts": [
+        {
+          "text": "2026",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "重点工作",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "6",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "：",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "积极",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "赋能一线",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "计划新增支持",
+          "font": "",
+          "size": 16,
+          "color": "086346"
+        },
+        {
+          "text": "分行",
+          "font": "",
+          "size": 16,
+          "color": "086346"
+        },
+        {
+          "text": "特色",
+          "font": "",
+          "size": 16,
+          "color": "086346"
+        },
+        {
+          "text": "需求",
+          "font": "",
+          "size": 16,
+          "color": "086346"
+        }
+      ],
+      "media": [
+        {
+          "file": "image53.png",
+          "xfrm": {
+            "x": 10121265,
+            "y": 1659255,
+            "cx": 1334770,
+            "cy": 4222115,
+            "xIn": 11.06875,
+            "yIn": 1.8145833333333334,
+            "wIn": 1.4597222222222221,
+            "hIn": 4.617361111111111
+          }
+        }
+      ]
+    },
+    {
+      "slide": "slide10",
+      "source": "ppt/slides/slide10.xml",
+      "shapes": 22,
+      "pictures": 0,
+      "tables": 0,
+      "dominantShapePresets": [
+        {
+          "name": "rect",
+          "count": 18
+        },
+        {
+          "name": "roundRect",
+          "count": 2
+        },
+        {
+          "name": "wedgeRoundRectCallout",
+          "count": 1
+        },
+        {
+          "name": "homePlate",
+          "count": 1
+        }
+      ],
+      "topTexts": [
+        {
+          "text": "2026",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "重点工作",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "7",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "：",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "聚焦价值创造",
+          "font": "",
+          "size": 0,
+          "color": "scheme:tx1"
+        },
+        {
+          "text": "截至",
+          "font": "",
+          "size": 10,
+          "color": ""
+        },
+        {
+          "text": "2026",
+          "font": "",
+          "size": 10,
+          "color": ""
+        },
+        {
+          "text": "年",
+          "font": "",
+          "size": 10,
+          "color": ""
+        },
+        {
+          "text": "1",
+          "font": "",
+          "size": 10,
+          "color": ""
+        },
+        {
+          "text": "月全国三农贷款",
+          "font": "",
+          "size": 10,
+          "color": ""
+        }
+      ],
+      "media": []
+    },
+    {
+      "slide": "slide11",
+      "source": "ppt/slides/slide11.xml",
+      "shapes": 0,
+      "pictures": 0,
+      "tables": 0,
+      "dominantShapePresets": [],
+      "topTexts": [],
+      "media": []
+    }
+  ],
+  "reusableFamilies": {
+    "header": {
+      "titleText": "Top-left black title with thin dark-green underline and top-right brand logo",
+      "underlineColor": "006544",
+      "commonShapes": [
+        "rect",
+        "line"
+      ]
+    },
+    "summaryBand": {
+      "description": "Full-width light-green summary strip with dark-green left accent bar",
+      "fills": [
+        {
+          "name": "006544",
+          "count": 76
+        },
+        {
+          "name": "086346",
+          "count": 24
+        },
+        {
+          "name": "FFFFFF",
+          "count": 11
+        },
+        {
+          "name": "E2F0D9",
+          "count": 3
+        }
+      ],
+      "commonShapes": [
+        "rect"
+      ]
+    },
+    "sectionLabels": [
+      {
+        "preset": "homePlate",
+        "description": "Title tag with notch tail"
+      },
+      {
+        "preset": "parallelogram",
+        "description": "Tilted ribbon tag"
+      },
+      {
+        "preset": "chevron",
+        "description": "Step/flow ribbon"
+      },
+      {
+        "preset": "rightArrow",
+        "description": "Directional arrow banner"
+      }
+    ],
+    "callouts": [
+      {
+        "preset": "wedgeRoundRectCallout",
+        "description": "Speech-bubble callout card"
+      },
+      {
+        "preset": "wedgeRectCallout",
+        "description": "Sharp speech callout"
+      },
+      {
+        "preset": "teardrop",
+        "description": "Accent droplet/marker badge"
+      }
+    ],
+    "badges": [
+      {
+        "preset": "ellipse",
+        "description": "Solid circular badge"
+      },
+      {
+        "preset": "round2DiagRect",
+        "description": "Rounded diagonal badge"
+      },
+      {
+        "preset": "star5",
+        "description": "Highlight/star marker"
+      }
+    ],
+    "containers": [
+      {
+        "preset": "rect",
+        "description": "Plain content box / table cell / divider"
+      },
+      {
+        "preset": "roundRect",
+        "description": "Soft card container"
+      }
+    ]
+  }
+}

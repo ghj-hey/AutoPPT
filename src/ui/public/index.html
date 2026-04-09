@@ -1,0 +1,265 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>银行金融风格 PPT 工作台</title>
+    <link rel="stylesheet" href="/styles.css?v=20260403b" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">PPT Workflow Studio</p>
+          <h1>银行金融风格 PPT 工作台</h1>
+          <p class="hero-copy">
+            上传需求文档、空白模板、素材 PPT 和参考 PPT / 参考图片。系统会先解析标题结构，再结合参考风格生成可编辑草稿与最终 PPT。
+          </p>
+        </div>
+        <div class="hero-panel">
+          <div class="hero-metric">
+            <span>输入支持</span>
+            <strong>DOCX / PDF / 模板 PPT / 素材 PPT / 参考 PPT / 参考图片</strong>
+          </div>
+          <div class="hero-metric">
+            <span>核心能力</span>
+            <strong>标题树分页、参考风格拟合、真实渲染预览、JSON 校正</strong>
+          </div>
+        </div>
+      </header>
+
+      <main class="content-grid">
+        <section class="panel panel-wide">
+          <div class="panel-title">
+            <h2>1. 上传材料</h2>
+            <p>参考 PPT 会在后台自动拆成参考页图片，用于学习布局、图标、表格和文字节奏。</p>
+          </div>
+          <form id="workflow-form" class="upload-grid">
+            <label class="field">
+              <span>PPT 素材库（可多选）</span>
+              <input type="file" name="materialPpt" accept=".ppt,.pptx" multiple />
+            </label>
+            <label class="field">
+              <span>参考 PPT（可多选）</span>
+              <input type="file" name="referencePpt" accept=".ppt,.pptx" multiple />
+            </label>
+            <label class="field">
+              <span>参考图片（可多选）</span>
+              <input type="file" name="referenceImages" accept=".png,.jpg,.jpeg,.webp" multiple />
+            </label>
+            <label class="field">
+              <span>空白模板 PPT</span>
+              <input type="file" name="template" accept=".ppt,.pptx" required />
+            </label>
+            <label class="field">
+              <span>需求文档</span>
+              <input type="file" name="requirementDoc" accept=".docx,.pdf" required />
+            </label>
+            <label class="field">
+              <span>已有参考库</span>
+              <select name="referenceLibraryId" id="reference-library-select"></select>
+            </label>
+            <label class="field">
+              <span>布局方案</span>
+              <select name="layoutSet" id="layout-set-select"></select>
+            </label>
+            <label class="field">
+              <span>PPT 页数</span>
+              <select name="pageCount" id="page-count-select">
+                <option value="0">自动</option>
+                <option value="2">2 页</option>
+                <option value="3">3 页</option>
+                <option value="4">4 页</option>
+                <option value="5">5 页</option>
+                <option value="6">6 页</option>
+                <option value="7">7 页</option>
+                <option value="8">8 页</option>
+                <option value="9">9 页</option>
+                <option value="10">10 页</option>
+              </select>
+            </label>
+            <label class="field inline-field">
+              <span>同步更新素材库</span>
+              <input type="checkbox" name="mergeReference" checked />
+            </label>
+
+            <div class="semantic-config">
+              <div class="panel-title semantic-title">
+                <h3>语义模型设置</h3>
+                <p>支持本地 OpenAI 兼容服务，也支持 Minimax / OpenAI API。使用 Minimax 时只需要填写 API Key。</p>
+              </div>
+              <div class="semantic-grid">
+                <label class="field" data-semantic-field="provider">
+                  <span>语义模型来源</span>
+                  <select name="semanticProvider">
+                    <option value="">关闭</option>
+                    <option value="local">本地 / OpenAI 兼容</option>
+                    <option value="minimax" selected>Minimax API</option>
+                    <option value="openai">OpenAI API</option>
+                    <option value="custom">自定义地址</option>
+                  </select>
+                </label>
+                <label class="field" data-semantic-field="baseUrl">
+                  <span>语义模型地址</span>
+                  <input type="text" name="semanticBaseUrl" placeholder="例如：http://127.0.0.1:11434/v1" />
+                </label>
+                <label class="field" data-semantic-field="model">
+                  <span>模型名称</span>
+                  <input type="text" name="semanticModel" value="MiniMax-M2.7" placeholder="例如：MiniMax-M2.7" />
+                </label>
+                <label class="field" data-semantic-field="apiKey">
+                  <span>API Key</span>
+                  <input type="password" name="semanticApiKey" placeholder="仅在 API 模式下需要" />
+                </label>
+                <label class="field inline-field" data-semantic-field="supportsImages">
+                  <span>支持图片分析</span>
+                  <input type="checkbox" name="semanticSupportsImages" checked />
+                </label>
+              </div>
+            </div>
+
+            <label class="field">
+              <span>部门</span>
+              <input type="text" name="department" placeholder="例如：西安项目建设二处" />
+            </label>
+            <label class="field">
+              <span>汇报人</span>
+              <input type="text" name="presenter" placeholder="可填写姓名或部门" />
+            </label>
+            <label class="field">
+              <span>日期</span>
+              <input type="text" name="reportDate" placeholder="例如：2026年3月" />
+            </label>
+            <div class="actions">
+              <button type="submit" class="primary">生成草稿</button>
+            </div>
+          </form>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title">
+            <h2>2. 处理状态</h2>
+            <p>展示上传、解析、素材融合、动态规划和渲染状态，并实时显示进度条。</p>
+          </div>
+          <div class="progress-panel" id="processing-progress"></div>
+          <div class="semantic-status-panel" id="semantic-status"></div>
+          <div id="status-list" class="status-list"></div>
+        </section>
+
+        <section class="panel panel-wide">
+          <div class="panel-title">
+            <h2>3. 素材库概览</h2>
+            <p>按品牌、图标、插画、截图等类别展示缩略图，支持横向滚动预览。</p>
+          </div>
+          <div id="library-summary" class="summary-box"></div>
+        </section>
+
+        <section class="panel panel-wide">
+          <div class="panel-title">
+            <h2>4. 处理流程</h2>
+            <p>从文档解析到草稿渲染，每一步的中间状态都会显示在这里。</p>
+          </div>
+          <div id="workflow-stages" class="stage-grid"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title">
+            <h2>5. 文档摘要</h2>
+            <p>识别正文、表格、图片和标题层级，用于后续分页和语义规划。</p>
+          </div>
+          <div id="document-summary" class="summary-box"></div>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title">
+            <h2>6. 草稿下载</h2>
+            <p>草稿 PPT、Outline、Style、布局和备注都可以直接下载。</p>
+          </div>
+          <div id="draft-download-links" class="download-grid compact-download-grid"></div>
+        </section>
+
+        <section class="panel panel-wide">
+          <div class="panel-title">
+            <h2>7. 草稿预览</h2>
+            <p>这里展示 PowerPoint 实际渲染截图，用于检查文字重叠、留白和图表位置。</p>
+          </div>
+          <div id="draft-preview-grid" class="preview-grid"></div>
+        </section>
+
+        <section class="panel panel-wide">
+          <div class="panel-title">
+            <h2>8. 页面级布局模板</h2>
+            <p>每一页都会按页面类型匹配模板，也可以单独切换，用于拉开不同页面的风格差异。</p>
+          </div>
+          <div id="layout-selectors" class="layout-grid"></div>
+        </section>
+
+        <section class="panel panel-wide">
+          <div class="panel-title">
+            <h2>9. JSON 校正</h2>
+            <p>支持直接修改 Outline / Style JSON，并回写到当前草稿后继续生成。</p>
+          </div>
+          <div class="editor-grid">
+            <div class="editor-card">
+              <div class="editor-head">
+                <h3>Outline JSON</h3>
+                <div class="button-row">
+                  <button type="button" data-copy="outline-editor">复制</button>
+                  <button type="button" id="apply-outline-json">应用到当前草稿</button>
+                </div>
+              </div>
+              <textarea id="outline-editor"></textarea>
+            </div>
+            <div class="editor-card">
+              <div class="editor-head">
+                <h3>Style JSON</h3>
+                <div class="button-row">
+                  <button type="button" data-copy="style-editor">复制</button>
+                  <button type="button" id="apply-style-json">应用到当前草稿</button>
+                </div>
+              </div>
+              <textarea id="style-editor"></textarea>
+            </div>
+          </div>
+          <div class="editor-card notes-card">
+            <div class="editor-head">
+              <h3>Page Notes</h3>
+            </div>
+            <pre id="notes-viewer"></pre>
+          </div>
+          <div class="progress-panel" id="generation-progress"></div>
+          <div class="actions">
+            <button id="generate-button" type="button" class="primary" disabled>生成 PPT</button>
+          </div>
+        </section>
+
+        <section class="panel panel-wide">
+          <div class="panel-title">
+            <h2>10. 最终预览</h2>
+            <p>最终版会再次导出真实渲染图，便于做最后一轮审阅。</p>
+          </div>
+          <div id="final-preview-grid" class="preview-grid"></div>
+        </section>
+
+        <section class="panel panel-wide">
+          <div class="panel-title">
+            <h2>11. 归档目录</h2>
+            <p>归档路径和独立下载清单都在这里，便于最终交付后快速定位文件。</p>
+          </div>
+          <div id="archive-summary" class="summary-box"></div>
+          <div id="archive-download-links" class="download-grid compact-download-grid"></div>
+        </section>
+
+        <section class="panel panel-wide">
+          <div class="panel-title">
+            <h2>12. 最终下载</h2>
+            <p>最终 PPT 和关键中间结果都可以在这里下载。</p>
+          </div>
+          <div id="download-links" class="download-grid"></div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/app.js?v=20260403b"></script>
+  </body>
+</html>

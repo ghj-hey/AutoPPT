@@ -1,0 +1,26 @@
+{
+  "name": "ppt_agent2",
+  "version": "1.0.0",
+  "description": "Reusable offline PPT workflow for Chinese financial reporting decks",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node report_runner.js",
+    "extract-reference-library": "node build_reference_library.js",
+    "ui": "node src/api/server.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "fast-xml-parser": "^5.5.6",
+    "image-size": "^2.0.2",
+    "jszip": "^3.10.1",
+    "iconv-lite": "^0.6.3",
+    "multer": "^2.1.1",
+    "pdf-parse": "^2.4.5",
+    "pptxgenjs": "^4.0.1"
+  }
+}

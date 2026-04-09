@@ -1,0 +1,1839 @@
+{
+  "sourcePptx": "E:\\codex\\ppt_agent2\\input_reference_deck.pptx",
+  "paletteTokens": {
+    "deepGreen": "006544",
+    "darkGreen": "086346",
+    "limeGreen": "70AD47",
+    "accentOrange": "ED7D31",
+    "accentGold": "FFC000",
+    "lightGreen": "E2F0D9",
+    "white": "FFFFFF",
+    "black": "000000"
+  },
+  "assetCollections": {
+    "iconAssets": [
+      {
+        "id": "image11",
+        "name": "image11.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image11.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image12",
+        "name": "image12.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image12.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image14",
+        "name": "image14.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image14.png",
+        "dimensions": {
+          "height": 224,
+          "width": 392,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image15",
+        "name": "image15.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image15.png",
+        "dimensions": {
+          "height": 256,
+          "width": 256,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image16",
+        "name": "image16.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image16.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image20",
+        "name": "image20.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image20.png",
+        "dimensions": {
+          "height": 223,
+          "width": 260,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image21",
+        "name": "image21.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image21.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image26",
+        "name": "image26.svg",
+        "category": "vector-icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\vector-icons\\image26.svg",
+        "dimensions": {
+          "height": 255,
+          "width": 255,
+          "type": "svg"
+        },
+        "slides": []
+      },
+      {
+        "id": "image28",
+        "name": "image28.svg",
+        "category": "vector-icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\vector-icons\\image28.svg",
+        "dimensions": {
+          "height": 255,
+          "width": 255,
+          "type": "svg"
+        },
+        "slides": []
+      },
+      {
+        "id": "image30",
+        "name": "image30.svg",
+        "category": "vector-icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\vector-icons\\image30.svg",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "svg"
+        },
+        "slides": []
+      },
+      {
+        "id": "image32",
+        "name": "image32.svg",
+        "category": "vector-icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\vector-icons\\image32.svg",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "svg"
+        },
+        "slides": []
+      },
+      {
+        "id": "image34",
+        "name": "image34.svg",
+        "category": "vector-icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\vector-icons\\image34.svg",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "svg"
+        },
+        "slides": []
+      },
+      {
+        "id": "image36",
+        "name": "image36.svg",
+        "category": "vector-icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\vector-icons\\image36.svg",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "svg"
+        },
+        "slides": []
+      },
+      {
+        "id": "image39",
+        "name": "image39.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image39.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide5"
+        ]
+      },
+      {
+        "id": "image40",
+        "name": "image40.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image40.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide5"
+        ]
+      },
+      {
+        "id": "image41",
+        "name": "image41.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image41.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide5"
+        ]
+      },
+      {
+        "id": "image42",
+        "name": "image42.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image42.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide5"
+        ]
+      },
+      {
+        "id": "image43",
+        "name": "image43.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image43.png",
+        "dimensions": {
+          "height": 280,
+          "width": 361,
+          "type": "png"
+        },
+        "slides": [
+          "slide6"
+        ]
+      },
+      {
+        "id": "image44",
+        "name": "image44.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image44.png",
+        "dimensions": {
+          "height": 241,
+          "width": 341,
+          "type": "png"
+        },
+        "slides": [
+          "slide6"
+        ]
+      },
+      {
+        "id": "image46",
+        "name": "image46.webp",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image46.webp",
+        "dimensions": {
+          "height": 240,
+          "width": 240,
+          "type": "webp"
+        },
+        "slides": [
+          "slide6"
+        ]
+      },
+      {
+        "id": "image5",
+        "name": "image5.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image5.png",
+        "dimensions": {
+          "height": 40,
+          "width": 322,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image6",
+        "name": "image6.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image6.png",
+        "dimensions": {
+          "height": 39,
+          "width": 317,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image7",
+        "name": "image7.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image7.png",
+        "dimensions": {
+          "height": 249,
+          "width": 332,
+          "type": "png"
+        },
+        "slides": [
+          "slide2"
+        ]
+      }
+    ],
+    "brandingAssets": [
+      {
+        "id": "image1",
+        "name": "image1.png",
+        "category": "branding",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\branding\\image1.png",
+        "dimensions": {
+          "height": 66,
+          "width": 2771,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image2",
+        "name": "image2.png",
+        "category": "branding",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\branding\\image2.png",
+        "dimensions": {
+          "height": 262,
+          "width": 2105,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image23",
+        "name": "image23.png",
+        "category": "branding",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\branding\\image23.png",
+        "dimensions": {
+          "height": 34,
+          "width": 65,
+          "type": "png"
+        },
+        "slides": [
+          "slide4"
+        ]
+      },
+      {
+        "id": "image24",
+        "name": "image24.png",
+        "category": "branding",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\branding\\image24.png",
+        "dimensions": {
+          "height": 561,
+          "width": 1554,
+          "type": "png"
+        },
+        "slides": []
+      }
+    ],
+    "illustrationAssets": [
+      {
+        "id": "image10",
+        "name": "image10.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image10.png",
+        "dimensions": {
+          "height": 84,
+          "width": 520,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image13",
+        "name": "image13.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image13.png",
+        "dimensions": {
+          "height": 450,
+          "width": 450,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image18",
+        "name": "image18.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image18.png",
+        "dimensions": {
+          "height": 669,
+          "width": 937,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image19",
+        "name": "image19.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image19.png",
+        "dimensions": {
+          "height": 583,
+          "width": 945,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image22",
+        "name": "image22.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image22.png",
+        "dimensions": {
+          "height": 505,
+          "width": 160,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image25",
+        "name": "image25.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image25.png",
+        "dimensions": {
+          "height": 800,
+          "width": 800,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image27",
+        "name": "image27.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image27.png",
+        "dimensions": {
+          "height": 800,
+          "width": 800,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image29",
+        "name": "image29.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image29.png",
+        "dimensions": {
+          "height": 800,
+          "width": 800,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image3",
+        "name": "image3.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image3.png",
+        "dimensions": {
+          "height": 67,
+          "width": 420,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image31",
+        "name": "image31.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image31.png",
+        "dimensions": {
+          "height": 800,
+          "width": 800,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image33",
+        "name": "image33.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image33.png",
+        "dimensions": {
+          "height": 800,
+          "width": 800,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image35",
+        "name": "image35.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image35.png",
+        "dimensions": {
+          "height": 800,
+          "width": 800,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image37",
+        "name": "image37.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image37.png",
+        "dimensions": {
+          "height": 70,
+          "width": 582,
+          "type": "png"
+        },
+        "slides": [
+          "slide5"
+        ]
+      },
+      {
+        "id": "image38",
+        "name": "image38.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image38.png",
+        "dimensions": {
+          "height": 70,
+          "width": 582,
+          "type": "png"
+        },
+        "slides": [
+          "slide5"
+        ]
+      },
+      {
+        "id": "image4",
+        "name": "image4.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image4.png",
+        "dimensions": {
+          "height": 244,
+          "width": 1165,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image45",
+        "name": "image45.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image45.png",
+        "dimensions": {
+          "height": 815,
+          "width": 816,
+          "type": "png"
+        },
+        "slides": [
+          "slide6"
+        ]
+      },
+      {
+        "id": "image48",
+        "name": "image48.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image48.png",
+        "dimensions": {
+          "height": 48,
+          "width": 479,
+          "type": "png"
+        },
+        "slides": [
+          "slide8"
+        ]
+      },
+      {
+        "id": "image50",
+        "name": "image50.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image50.png",
+        "dimensions": {
+          "height": 94,
+          "width": 846,
+          "type": "png"
+        },
+        "slides": [
+          "slide8"
+        ]
+      },
+      {
+        "id": "image51",
+        "name": "image51.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image51.png",
+        "dimensions": {
+          "height": 370,
+          "width": 829,
+          "type": "png"
+        },
+        "slides": [
+          "slide8"
+        ]
+      },
+      {
+        "id": "image53",
+        "name": "image53.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image53.png",
+        "dimensions": {
+          "height": 563,
+          "width": 178,
+          "type": "png"
+        },
+        "slides": [
+          "slide9"
+        ]
+      }
+    ],
+    "screenshotAssets": [
+      {
+        "id": "image17",
+        "name": "image17.png",
+        "category": "screenshots-charts",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\screenshots-charts\\image17.png",
+        "dimensions": {
+          "height": 2128,
+          "width": 2098,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image47",
+        "name": "image47.png",
+        "category": "screenshots-charts",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\screenshots-charts\\image47.png",
+        "dimensions": {
+          "height": 1920,
+          "width": 883,
+          "type": "png"
+        },
+        "slides": [
+          "slide7"
+        ]
+      },
+      {
+        "id": "image49",
+        "name": "image49.png",
+        "category": "screenshots-charts",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\screenshots-charts\\image49.png",
+        "dimensions": {
+          "height": 230,
+          "width": 1474,
+          "type": "png"
+        },
+        "slides": [
+          "slide8"
+        ]
+      },
+      {
+        "id": "image52",
+        "name": "image52.png",
+        "category": "screenshots-charts",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\screenshots-charts\\image52.png",
+        "dimensions": {
+          "height": 399,
+          "width": 856,
+          "type": "png"
+        },
+        "slides": [
+          "slide8"
+        ]
+      },
+      {
+        "id": "image8",
+        "name": "image8.png",
+        "category": "screenshots-charts",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\screenshots-charts\\image8.png",
+        "dimensions": {
+          "height": 788,
+          "width": 937,
+          "type": "png"
+        },
+        "slides": [
+          "slide2"
+        ]
+      },
+      {
+        "id": "image9",
+        "name": "image9.png",
+        "category": "screenshots-charts",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\screenshots-charts\\image9.png",
+        "dimensions": {
+          "height": 798,
+          "width": 2134,
+          "type": "png"
+        },
+        "slides": [
+          "slide2"
+        ]
+      }
+    ],
+    "allAssets": [
+      {
+        "id": "image1",
+        "name": "image1.png",
+        "category": "branding",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\branding\\image1.png",
+        "dimensions": {
+          "height": 66,
+          "width": 2771,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image10",
+        "name": "image10.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image10.png",
+        "dimensions": {
+          "height": 84,
+          "width": 520,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image11",
+        "name": "image11.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image11.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image12",
+        "name": "image12.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image12.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image13",
+        "name": "image13.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image13.png",
+        "dimensions": {
+          "height": 450,
+          "width": 450,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image14",
+        "name": "image14.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image14.png",
+        "dimensions": {
+          "height": 224,
+          "width": 392,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image15",
+        "name": "image15.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image15.png",
+        "dimensions": {
+          "height": 256,
+          "width": 256,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image16",
+        "name": "image16.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image16.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image17",
+        "name": "image17.png",
+        "category": "screenshots-charts",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\screenshots-charts\\image17.png",
+        "dimensions": {
+          "height": 2128,
+          "width": 2098,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image18",
+        "name": "image18.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image18.png",
+        "dimensions": {
+          "height": 669,
+          "width": 937,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image19",
+        "name": "image19.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image19.png",
+        "dimensions": {
+          "height": 583,
+          "width": 945,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image2",
+        "name": "image2.png",
+        "category": "branding",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\branding\\image2.png",
+        "dimensions": {
+          "height": 262,
+          "width": 2105,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image20",
+        "name": "image20.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image20.png",
+        "dimensions": {
+          "height": 223,
+          "width": 260,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image21",
+        "name": "image21.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image21.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image22",
+        "name": "image22.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image22.png",
+        "dimensions": {
+          "height": 505,
+          "width": 160,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image23",
+        "name": "image23.png",
+        "category": "branding",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\branding\\image23.png",
+        "dimensions": {
+          "height": 34,
+          "width": 65,
+          "type": "png"
+        },
+        "slides": [
+          "slide4"
+        ]
+      },
+      {
+        "id": "image24",
+        "name": "image24.png",
+        "category": "branding",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\branding\\image24.png",
+        "dimensions": {
+          "height": 561,
+          "width": 1554,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image25",
+        "name": "image25.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image25.png",
+        "dimensions": {
+          "height": 800,
+          "width": 800,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image26",
+        "name": "image26.svg",
+        "category": "vector-icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\vector-icons\\image26.svg",
+        "dimensions": {
+          "height": 255,
+          "width": 255,
+          "type": "svg"
+        },
+        "slides": []
+      },
+      {
+        "id": "image27",
+        "name": "image27.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image27.png",
+        "dimensions": {
+          "height": 800,
+          "width": 800,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image28",
+        "name": "image28.svg",
+        "category": "vector-icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\vector-icons\\image28.svg",
+        "dimensions": {
+          "height": 255,
+          "width": 255,
+          "type": "svg"
+        },
+        "slides": []
+      },
+      {
+        "id": "image29",
+        "name": "image29.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image29.png",
+        "dimensions": {
+          "height": 800,
+          "width": 800,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image3",
+        "name": "image3.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image3.png",
+        "dimensions": {
+          "height": 67,
+          "width": 420,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image30",
+        "name": "image30.svg",
+        "category": "vector-icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\vector-icons\\image30.svg",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "svg"
+        },
+        "slides": []
+      },
+      {
+        "id": "image31",
+        "name": "image31.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image31.png",
+        "dimensions": {
+          "height": 800,
+          "width": 800,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image32",
+        "name": "image32.svg",
+        "category": "vector-icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\vector-icons\\image32.svg",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "svg"
+        },
+        "slides": []
+      },
+      {
+        "id": "image33",
+        "name": "image33.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image33.png",
+        "dimensions": {
+          "height": 800,
+          "width": 800,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image34",
+        "name": "image34.svg",
+        "category": "vector-icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\vector-icons\\image34.svg",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "svg"
+        },
+        "slides": []
+      },
+      {
+        "id": "image35",
+        "name": "image35.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image35.png",
+        "dimensions": {
+          "height": 800,
+          "width": 800,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image36",
+        "name": "image36.svg",
+        "category": "vector-icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\vector-icons\\image36.svg",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "svg"
+        },
+        "slides": []
+      },
+      {
+        "id": "image37",
+        "name": "image37.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image37.png",
+        "dimensions": {
+          "height": 70,
+          "width": 582,
+          "type": "png"
+        },
+        "slides": [
+          "slide5"
+        ]
+      },
+      {
+        "id": "image38",
+        "name": "image38.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image38.png",
+        "dimensions": {
+          "height": 70,
+          "width": 582,
+          "type": "png"
+        },
+        "slides": [
+          "slide5"
+        ]
+      },
+      {
+        "id": "image39",
+        "name": "image39.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image39.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide5"
+        ]
+      },
+      {
+        "id": "image4",
+        "name": "image4.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image4.png",
+        "dimensions": {
+          "height": 244,
+          "width": 1165,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image40",
+        "name": "image40.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image40.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide5"
+        ]
+      },
+      {
+        "id": "image41",
+        "name": "image41.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image41.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide5"
+        ]
+      },
+      {
+        "id": "image42",
+        "name": "image42.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image42.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide5"
+        ]
+      },
+      {
+        "id": "image43",
+        "name": "image43.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image43.png",
+        "dimensions": {
+          "height": 280,
+          "width": 361,
+          "type": "png"
+        },
+        "slides": [
+          "slide6"
+        ]
+      },
+      {
+        "id": "image44",
+        "name": "image44.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image44.png",
+        "dimensions": {
+          "height": 241,
+          "width": 341,
+          "type": "png"
+        },
+        "slides": [
+          "slide6"
+        ]
+      },
+      {
+        "id": "image45",
+        "name": "image45.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image45.png",
+        "dimensions": {
+          "height": 815,
+          "width": 816,
+          "type": "png"
+        },
+        "slides": [
+          "slide6"
+        ]
+      },
+      {
+        "id": "image46",
+        "name": "image46.webp",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image46.webp",
+        "dimensions": {
+          "height": 240,
+          "width": 240,
+          "type": "webp"
+        },
+        "slides": [
+          "slide6"
+        ]
+      },
+      {
+        "id": "image47",
+        "name": "image47.png",
+        "category": "screenshots-charts",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\screenshots-charts\\image47.png",
+        "dimensions": {
+          "height": 1920,
+          "width": 883,
+          "type": "png"
+        },
+        "slides": [
+          "slide7"
+        ]
+      },
+      {
+        "id": "image48",
+        "name": "image48.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image48.png",
+        "dimensions": {
+          "height": 48,
+          "width": 479,
+          "type": "png"
+        },
+        "slides": [
+          "slide8"
+        ]
+      },
+      {
+        "id": "image49",
+        "name": "image49.png",
+        "category": "screenshots-charts",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\screenshots-charts\\image49.png",
+        "dimensions": {
+          "height": 230,
+          "width": 1474,
+          "type": "png"
+        },
+        "slides": [
+          "slide8"
+        ]
+      },
+      {
+        "id": "image5",
+        "name": "image5.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image5.png",
+        "dimensions": {
+          "height": 40,
+          "width": 322,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image50",
+        "name": "image50.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image50.png",
+        "dimensions": {
+          "height": 94,
+          "width": 846,
+          "type": "png"
+        },
+        "slides": [
+          "slide8"
+        ]
+      },
+      {
+        "id": "image51",
+        "name": "image51.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image51.png",
+        "dimensions": {
+          "height": 370,
+          "width": 829,
+          "type": "png"
+        },
+        "slides": [
+          "slide8"
+        ]
+      },
+      {
+        "id": "image52",
+        "name": "image52.png",
+        "category": "screenshots-charts",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\screenshots-charts\\image52.png",
+        "dimensions": {
+          "height": 399,
+          "width": 856,
+          "type": "png"
+        },
+        "slides": [
+          "slide8"
+        ]
+      },
+      {
+        "id": "image53",
+        "name": "image53.png",
+        "category": "mixed-media",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\mixed-media\\image53.png",
+        "dimensions": {
+          "height": 563,
+          "width": 178,
+          "type": "png"
+        },
+        "slides": [
+          "slide9"
+        ]
+      },
+      {
+        "id": "image6",
+        "name": "image6.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image6.png",
+        "dimensions": {
+          "height": 39,
+          "width": 317,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image7",
+        "name": "image7.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image7.png",
+        "dimensions": {
+          "height": 249,
+          "width": 332,
+          "type": "png"
+        },
+        "slides": [
+          "slide2"
+        ]
+      },
+      {
+        "id": "image8",
+        "name": "image8.png",
+        "category": "screenshots-charts",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\screenshots-charts\\image8.png",
+        "dimensions": {
+          "height": 788,
+          "width": 937,
+          "type": "png"
+        },
+        "slides": [
+          "slide2"
+        ]
+      },
+      {
+        "id": "image9",
+        "name": "image9.png",
+        "category": "screenshots-charts",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\screenshots-charts\\image9.png",
+        "dimensions": {
+          "height": 798,
+          "width": 2134,
+          "type": "png"
+        },
+        "slides": [
+          "slide2"
+        ]
+      }
+    ]
+  },
+  "componentPresets": {
+    "header": {
+      "titleAlign": "left",
+      "titleColor": "000000",
+      "underlineShape": "rect",
+      "underlineColor": "006544",
+      "logoCategory": "branding"
+    },
+    "summaryBand": {
+      "bandShape": "rect",
+      "bandFill": "E2F0D9",
+      "accentBarFill": "006544"
+    },
+    "sectionRibbons": [
+      {
+        "id": "home-plate-green",
+        "shape": "homePlate",
+        "fill": "006544",
+        "textColor": "FFFFFF"
+      },
+      {
+        "id": "parallelogram-lime",
+        "shape": "parallelogram",
+        "fill": "B4CC27",
+        "textColor": "FFFFFF"
+      },
+      {
+        "id": "chevron-green",
+        "shape": "chevron",
+        "fill": "70AD47",
+        "textColor": "FFFFFF"
+      },
+      {
+        "id": "right-arrow-blue",
+        "shape": "rightArrow",
+        "fill": "2F5597",
+        "textColor": "FFFFFF"
+      }
+    ],
+    "badges": [
+      {
+        "id": "ellipse-solid",
+        "shape": "ellipse",
+        "fill": "006544",
+        "textColor": "FFFFFF"
+      },
+      {
+        "id": "teardrop-gold",
+        "shape": "teardrop",
+        "fill": "FFC000",
+        "textColor": "FFFFFF"
+      },
+      {
+        "id": "diag-rect-lime",
+        "shape": "round2DiagRect",
+        "fill": "70AD47",
+        "textColor": "FFFFFF"
+      },
+      {
+        "id": "star-highlight",
+        "shape": "star5",
+        "fill": "ED7D31",
+        "textColor": "FFFFFF"
+      }
+    ],
+    "callouts": [
+      {
+        "id": "soft-speech",
+        "shape": "wedgeRoundRectCallout",
+        "fill": "E2F0D9",
+        "line": "70AD47",
+        "textColor": "000000"
+      },
+      {
+        "id": "sharp-speech",
+        "shape": "wedgeRectCallout",
+        "fill": "FFFFFF",
+        "line": "006544",
+        "textColor": "000000"
+      }
+    ],
+    "cards": [
+      {
+        "id": "plain-card",
+        "shape": "rect",
+        "fill": "FFFFFF",
+        "line": "70AD47"
+      },
+      {
+        "id": "soft-round-card",
+        "shape": "roundRect",
+        "fill": "FFFFFF",
+        "line": "B7D7A8"
+      }
+    ],
+    "dividers": [
+      {
+        "id": "thin-green-line",
+        "shape": "rect",
+        "fill": "006544"
+      },
+      {
+        "id": "soft-green-strip",
+        "shape": "rect",
+        "fill": "E2F0D9"
+      }
+    ],
+    "tables": [
+      {
+        "id": "dark-header-striped-body",
+        "headerFill": "006544",
+        "headerText": "FFFFFF",
+        "bodyFillA": "E2F0D9",
+        "bodyFillB": "FFFFFF",
+        "emphasisText": "ED7D31"
+      }
+    ],
+    "iconAssets": [
+      {
+        "id": "image11",
+        "name": "image11.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image11.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image12",
+        "name": "image12.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image12.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image14",
+        "name": "image14.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image14.png",
+        "dimensions": {
+          "height": 224,
+          "width": 392,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image15",
+        "name": "image15.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image15.png",
+        "dimensions": {
+          "height": 256,
+          "width": 256,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image16",
+        "name": "image16.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image16.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image20",
+        "name": "image20.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image20.png",
+        "dimensions": {
+          "height": 223,
+          "width": 260,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image21",
+        "name": "image21.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image21.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide3"
+        ]
+      },
+      {
+        "id": "image26",
+        "name": "image26.svg",
+        "category": "vector-icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\vector-icons\\image26.svg",
+        "dimensions": {
+          "height": 255,
+          "width": 255,
+          "type": "svg"
+        },
+        "slides": []
+      },
+      {
+        "id": "image28",
+        "name": "image28.svg",
+        "category": "vector-icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\vector-icons\\image28.svg",
+        "dimensions": {
+          "height": 255,
+          "width": 255,
+          "type": "svg"
+        },
+        "slides": []
+      },
+      {
+        "id": "image30",
+        "name": "image30.svg",
+        "category": "vector-icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\vector-icons\\image30.svg",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "svg"
+        },
+        "slides": []
+      },
+      {
+        "id": "image32",
+        "name": "image32.svg",
+        "category": "vector-icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\vector-icons\\image32.svg",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "svg"
+        },
+        "slides": []
+      },
+      {
+        "id": "image34",
+        "name": "image34.svg",
+        "category": "vector-icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\vector-icons\\image34.svg",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "svg"
+        },
+        "slides": []
+      },
+      {
+        "id": "image36",
+        "name": "image36.svg",
+        "category": "vector-icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\vector-icons\\image36.svg",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "svg"
+        },
+        "slides": []
+      },
+      {
+        "id": "image39",
+        "name": "image39.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image39.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide5"
+        ]
+      },
+      {
+        "id": "image40",
+        "name": "image40.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image40.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide5"
+        ]
+      },
+      {
+        "id": "image41",
+        "name": "image41.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image41.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide5"
+        ]
+      },
+      {
+        "id": "image42",
+        "name": "image42.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image42.png",
+        "dimensions": {
+          "height": 200,
+          "width": 200,
+          "type": "png"
+        },
+        "slides": [
+          "slide5"
+        ]
+      },
+      {
+        "id": "image43",
+        "name": "image43.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image43.png",
+        "dimensions": {
+          "height": 280,
+          "width": 361,
+          "type": "png"
+        },
+        "slides": [
+          "slide6"
+        ]
+      },
+      {
+        "id": "image44",
+        "name": "image44.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image44.png",
+        "dimensions": {
+          "height": 241,
+          "width": 341,
+          "type": "png"
+        },
+        "slides": [
+          "slide6"
+        ]
+      },
+      {
+        "id": "image46",
+        "name": "image46.webp",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image46.webp",
+        "dimensions": {
+          "height": 240,
+          "width": 240,
+          "type": "webp"
+        },
+        "slides": [
+          "slide6"
+        ]
+      },
+      {
+        "id": "image5",
+        "name": "image5.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image5.png",
+        "dimensions": {
+          "height": 40,
+          "width": 322,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image6",
+        "name": "image6.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image6.png",
+        "dimensions": {
+          "height": 39,
+          "width": 317,
+          "type": "png"
+        },
+        "slides": []
+      },
+      {
+        "id": "image7",
+        "name": "image7.png",
+        "category": "icons",
+        "path": "E:\\codex\\ppt_agent2\\reference_library\\work_meeting\\categorized\\icons\\image7.png",
+        "dimensions": {
+          "height": 249,
+          "width": 332,
+          "type": "png"
+        },
+        "slides": [
+          "slide2"
+        ]
+      }
+    ]
+  }
+}
