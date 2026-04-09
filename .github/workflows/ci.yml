@@ -27,5 +27,8 @@ jobs:
         run: |
           git ls-files '*.js' | xargs -r -n 1 node --check
 
-      - name: Run tests
-        run: npm test
+      - name: Run layout tests
+        run: node --test test/layoutVerification.test.js
+
+      - name: Run workflow tests
+        run: node --test test/workflowSessionService.test.js
