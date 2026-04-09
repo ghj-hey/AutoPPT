@@ -7,7 +7,8 @@
     "generate": "node report_runner.js",
     "extract-reference-library": "node build_reference_library.js",
     "ui": "node src/api/server.js",
-    "test": "node --test"
+    "test": "node --test",
+    "release-check": "bash scripts/release-check.sh"
   },
   "keywords": [],
   "author": "",
