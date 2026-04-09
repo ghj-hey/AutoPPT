@@ -8,6 +8,35 @@ const { REFERENCE_PREVIEW_CACHE } = require("../utils/pathConfig");
 
 const execFileAsync = promisify(execFile);
 
+function detectPreviewSupport() {
+  if (process.platform !== "win32") {
+    return {
+      supported: false,
+      status: "unsupported",
+      reason: "当前环境不支持 PowerPoint 真实预览，仅 Windows + PowerPoint COM 可用。",
+      platform: process.platform,
+    };
+  }
+
+  return {
+    supported: true,
+    status: "available",
+    reason: "",
+    platform: process.platform,
+  };
+}
+
+function normalizePreviewFailureReason(error) {
+  const message = String(error?.message || error || "").trim();
+  if (!message) {
+    return "预览导出失败，但未返回具体错误信息。";
+  }
+  if (/powershell\.exe/i.test(message)) {
+    return `预览导出失败：无法启动 powershell.exe。${message}`;
+  }
+  return `预览导出失败：${message}`;
+}
+
 function sleep(ms = 0) {
   return new Promise((resolve) => setTimeout(resolve, Math.max(0, Number(ms) || 0)));
 }
@@ -135,11 +164,60 @@ function readPreviewImages(imagePaths, titles = []) {
 }
 
 async function buildRenderedPreviews(pptPath, outputDir, titles = [], options = {}) {
-  const imagePaths = await exportPresentationPngs(pptPath, outputDir, options);
-  return readPreviewImages(imagePaths, titles);
+  const previewSupport = options.previewSupport || detectPreviewSupport();
+  if (!previewSupport.supported) {
+    return {
+      previews: [],
+      previewState: {
+        ...previewSupport,
+        previewCount: 0,
+      },
+    };
+  }
+
+  try {
+    const exporter = options.exporter || options.exportPresentationPngs || exportPresentationPngs;
+    const imagePaths = await exporter(pptPath, outputDir, options);
+    const previews = readPreviewImages(imagePaths, titles);
+    if (!previews.length) {
+      return {
+        previews: [],
+        previewState: {
+          supported: true,
+          status: "failed",
+          reason: "预览导出完成，但没有生成任何图片。",
+          platform: process.platform,
+          previewCount: 0,
+        },
+      };
+    }
+
+    return {
+      previews,
+      previewState: {
+        supported: true,
+        status: "available",
+        reason: "",
+        platform: process.platform,
+        previewCount: previews.length,
+      },
+    };
+  } catch (error) {
+    return {
+      previews: [],
+      previewState: {
+        supported: true,
+        status: "failed",
+        reason: normalizePreviewFailureReason(error),
+        platform: process.platform,
+        previewCount: 0,
+      },
+    };
+  }
 }
 
 module.exports = {
+  detectPreviewSupport,
   exportPresentationPngs,
   readPreviewImages,
   buildRenderedPreviews,

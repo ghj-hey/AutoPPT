@@ -432,6 +432,41 @@ function renderPreviewGrid(containerId, items = [], emptyText = '暂无预览') 
     .join('');
 }
 
+function previewStateLabel(state = {}) {
+  const status = String(state.status || '').toLowerCase();
+  if (status === 'pending') return '待检测';
+  if (status === 'available') return '可用';
+  if (status === 'unsupported') return '不可用';
+  if (status === 'failed') return '失败';
+  return '未知';
+}
+
+function renderPreviewStatus(containerId, state = null, emptyText = '暂无预览状态') {
+  const container = byId(containerId);
+  if (!container) return;
+  if (!state) {
+    container.innerHTML = `<div class="status-item preview-status-card"><strong>预览状态待检测</strong><div>${escapeHtml(emptyText)}</div></div>`;
+    return;
+  }
+
+  const status = String(state.status || '').toLowerCase();
+  const platform = String(state.platform || '').trim() || '未知平台';
+  const reason = String(state.reason || '').trim();
+  const previewCount = Number(state.previewCount || 0);
+  const detail =
+    status === 'available'
+      ? `已生成 ${previewCount} 张真实渲染图。`
+      : reason || '当前预览不可用。';
+
+  container.innerHTML = `
+    <div class="status-item preview-status-card preview-status-${escapeHtml(status || 'unknown')}">
+      <strong>预览环境：${escapeHtml(previewStateLabel(state))}</strong>
+      <div>${escapeHtml(detail)}</div>
+      <div>${escapeHtml(`平台：${platform}｜${status === 'available' ? `预览数量：${previewCount}` : '已跳过预览导出'}`)}</div>
+    </div>
+  `;
+}
+
 function effectiveLayoutPayload(explicitPayload = null) {
   if (explicitPayload?.slideLayouts?.length) return explicitPayload;
   if (state.layoutData?.slideLayouts?.length) return state.layoutData;
@@ -553,10 +588,12 @@ function resetOutputs() {
   renderWorkflowStages([]);
   renderDocumentSummary(null);
   renderDownloadGrid('draft-download-links', [], '暂无草稿文件');
+  renderPreviewStatus('draft-preview-status', null, '草稿预览尚未生成');
   renderPreviewGrid('draft-preview-grid', [], '草稿预览尚未生成');
   renderArchiveSummary({}, null);
   renderDownloadGrid('archive-download-links', [], '暂无归档文件');
   renderDownloadGrid('download-links', [], '暂无最终文件');
+  renderPreviewStatus('final-preview-status', null, '最终预览尚未生成');
   renderPreviewGrid('final-preview-grid', [], '最终预览尚未生成');
   renderLayoutSelectors([], {});
   byId('outline-editor').value = '';
@@ -578,6 +615,10 @@ async function loadArtifacts(sessionId) {
     let draftPreviews = { items: [] };
     let finalPreviews = { items: [] };
     let archiveManifest = null;
+    const draftPreviewState = archived
+      ? state.currentMeta?.intermediate?.previewState || null
+      : state.currentMeta?.intermediate?.previewState || state.currentMeta?.previewState || null;
+    const finalPreviewState = state.currentMeta?.output?.previewState || state.currentMeta?.previewState || null;
 
     if (archived) {
       [draftOutline, draftStyle, draftNotes, draftSummary, draftLayout, finalPreviews, archiveManifest] = await Promise.all([
@@ -611,11 +652,17 @@ async function loadArtifacts(sessionId) {
     byId('notes-viewer').textContent = state.notesText || '暂无备注';
 
     renderDocumentSummary(draftSummary);
+    renderPreviewStatus(
+      'draft-preview-status',
+      draftPreviewState,
+      archived ? '草稿工作区已销毁。' : '首轮草稿已输出。若需要最终渲染图，请点击“生成 PPT”。',
+    );
     renderPreviewGrid(
       'draft-preview-grid',
       archived ? [] : draftPreviews.items || [],
       archived ? '草稿工作区已销毁。' : '首轮草稿已输出。若需要最终渲染图，请点击“生成 PPT”。',
     );
+    renderPreviewStatus('final-preview-status', finalPreviewState, '最终 PPT 尚未生成。');
     renderPreviewGrid('final-preview-grid', finalPreviews.items || [], '最终 PPT 尚未生成。');
     renderArchiveSummary(state.currentMeta || {}, archiveManifest);
     renderDownloadGrid(
@@ -686,6 +733,12 @@ function renderMeta(meta = {}) {
   renderSemanticStatus(mergedMeta);
   renderStatusItems(buildStatusCards(mergedMeta));
   renderWorkflowStages(mergedMeta.workflowStages || []);
+  renderPreviewStatus(
+    'draft-preview-status',
+    mergedMeta.archivedAt ? null : mergedMeta.intermediate?.previewState || mergedMeta.previewState || null,
+    mergedMeta.archivedAt ? '草稿工作区已销毁。' : '草稿预览尚未生成',
+  );
+  renderPreviewStatus('final-preview-status', mergedMeta.output?.previewState || mergedMeta.previewState || null, '最终预览尚未生成');
   if (!state.loadingArtifacts) {
     const effectiveLayout = effectiveLayoutPayload(mergedMeta.layoutOptions || null);
     renderLayoutSelectors(effectiveLayout?.slideLayouts || [], effectiveLayout?.initialSelection || {});

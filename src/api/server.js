@@ -211,9 +211,11 @@ function createApp() {
     const stage = String(req.params.stage || "").toLowerCase();
     const previewDir =
       stage === "final" ? session.meta.output?.previewDir : session.meta.intermediate?.previewDir;
+    const previewState =
+      stage === "final" ? session.meta.output?.previewState || session.meta.previewState || null : session.meta.intermediate?.previewState || session.meta.previewState || null;
 
     if (!previewDir || !path.isAbsolute(previewDir) || !isWithinRoot(previewDir, WORKSPACE_ROOT)) {
-      res.json({ items: [] });
+      res.json({ items: [], previewState });
       return;
     }
 
@@ -223,7 +225,7 @@ function createApp() {
       url: `/api/library-preview?path=${encodeURIComponent(item.path)}`,
       path: item.path,
     }));
-    res.json({ items });
+    res.json({ items, previewState });
   });
 
   app.get("/api/download/:sessionId/:fileType", (req, res) => {

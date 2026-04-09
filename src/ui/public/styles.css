@@ -176,6 +176,26 @@ body {
   gap: 16px;
 }
 
+.preview-status {
+  margin-bottom: 12px;
+}
+
+.preview-status-card {
+  border-left: 4px solid var(--accent);
+}
+
+.preview-status-available {
+  border-left-color: #2e7d32;
+}
+
+.preview-status-unsupported {
+  border-left-color: #e67e22;
+}
+
+.preview-status-failed {
+  border-left-color: #c0392b;
+}
+
 .field {
   display: grid;
   gap: 8px;

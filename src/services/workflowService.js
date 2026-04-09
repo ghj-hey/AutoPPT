@@ -27,7 +27,7 @@ const {
   analyzeReferenceStyle,
   reviewRenderedDeck,
 } = require("./semanticModelService.stable");
-const { buildRenderedPreviews, exportPresentationPngs } = require("./powerPointPreviewService");
+const { detectPreviewSupport, buildRenderedPreviews, exportPresentationPngs } = require("./powerPointPreviewService");
 const { DEFAULT_LAYOUT_LIBRARY } = require("../utils/pathConfig");
 const { ensureDir, readJson, writeJson } = require("../utils/fileUtils");
 const {
@@ -49,6 +49,37 @@ function unique(list) {
 function toProgressPercent(value = 0) {
   const numeric = Number(value) || 0;
   return Math.max(0, Math.min(100, Math.round(numeric <= 1 ? numeric * 100 : numeric)));
+}
+
+function normalizePreviewState(previewResult = {}, stage = "draft") {
+  const previewState = previewResult.previewState || previewResult.availability || {};
+  const previews = Array.isArray(previewResult.previews) ? previewResult.previews : [];
+  const status = String(previewState.status || "").toLowerCase();
+  const supported = previewState.supported ?? previewState.available ?? status === "available";
+  return {
+    stage,
+    supported: Boolean(supported),
+    status: status || (previews.length ? "available" : supported ? "failed" : "unsupported"),
+    reason: String(previewState.reason || "").trim(),
+    platform: String(previewState.platform || process.platform),
+    previewCount: Number(previewState.previewCount || previews.length || 0),
+  };
+}
+
+function previewStatusMessage(stageName, previewState = {}) {
+  const stageLabel = String(stageName || "预览").trim();
+  const count = Number(previewState.previewCount || 0);
+  const reason = String(previewState.reason || "").trim();
+  switch (String(previewState.status || "").toLowerCase()) {
+    case "available":
+      return `${stageLabel}已完成，共 ${count} 张真实渲染图。`;
+    case "unsupported":
+      return `${stageLabel}已生成，但当前环境不支持真实预览，已跳过预览导出。`;
+    case "failed":
+      return `${stageLabel}已生成，但预览导出失败，已继续后续流程。${reason ? `原因：${reason}` : ""}`;
+    default:
+      return `${stageLabel}已生成。`;
+  }
 }
 
 function normalizeSemanticApiKey(value = "") {
@@ -579,16 +610,17 @@ async function resolveReferenceLibraries(materialFiles, options = {}, sessionDir
 }
 
 async function renderDraftArtifacts({ sessionDir, outline, style }) {
-    const draftDeckPath = path.join(sessionDir, "intermediate", "draft_generated.pptx");
-    const previewDir = path.join(sessionDir, "intermediate", "rendered_preview");
-    await reportGenerator.renderDeck(outline, style, draftDeckPath);
-  const previews = await buildRenderedPreviews(
-      draftDeckPath,
-      previewDir,
-      (outline.slides || []).map((slide) => slide.title),
-      { width: 1280, height: 720, timeoutMs: 90000 },
-    );
-  return { draftDeckPath, previewDir, previews };
+  const draftDeckPath = path.join(sessionDir, "intermediate", "draft_generated.pptx");
+  const previewDir = path.join(sessionDir, "intermediate", "rendered_preview");
+  await reportGenerator.renderDeck(outline, style, draftDeckPath);
+  const previewResult = await buildRenderedPreviews(
+    draftDeckPath,
+    previewDir,
+    (outline.slides || []).map((slide) => slide.title),
+    { width: 1280, height: 720, timeoutMs: 90000 },
+  );
+  const previewState = normalizePreviewState(previewResult, "draft");
+  return { draftDeckPath, previewDir, previews: previewResult.previews || [], previewState };
 }
 
 async function createWorkflowSession({ files, options = {} }) {
@@ -597,6 +629,7 @@ async function createWorkflowSession({ files, options = {} }) {
   const session = providedSessionId && providedSessionDir ? { sessionId: providedSessionId, sessionDir: providedSessionDir } : createSession();
   const { sessionId, sessionDir } = session;
   const writeProgress = createProgressWriter(sessionDir);
+  const previewEnvironment = detectPreviewSupport();
     const stagedFiles = {
       materialPpts: stageReferenceFiles(sessionDir, files.materialPpt || [], "material", ".pptx"),
       referencePpts: stageReferenceFiles(sessionDir, files.referencePpt || [], "reference-ppt", ".pptx"),
@@ -612,6 +645,7 @@ async function createWorkflowSession({ files, options = {} }) {
     currentStage: "upload",
     currentStageLabel: "上传整理",
     message: "正在整理上传文件",
+    previewEnvironment,
     files: stagedFiles,
   });
 
@@ -872,13 +906,14 @@ async function createWorkflowSession({ files, options = {} }) {
   };
 
   let notes = reportGenerator.buildNotes(outline);
-  let { draftDeckPath, previewDir, previews } = await renderDraftArtifacts({ sessionDir, outline, style });
+  let { draftDeckPath, previewDir, previews, previewState: draftPreviewState } = await renderDraftArtifacts({ sessionDir, outline, style });
   writeProgress({
     status: "running",
     progress: 74,
     currentStage: "draft",
     currentStageLabel: "草稿输出",
-    message: `草稿 PPT 已生成并完成预览导出，共 ${previews.length || 0} 张真实渲染图。`,
+    message: previewStatusMessage("草稿 PPT", draftPreviewState),
+    previewState: draftPreviewState,
     workflowStages: buildReadableWorkflowStagesCn({
       documentSummary,
       effectiveLibrary: reference.effectiveLibrary,
@@ -971,6 +1006,7 @@ async function createWorkflowSession({ files, options = {} }) {
     uploadedReferenceImages: stagedFiles.referenceImages,
     referencePptPaths: stagedFiles.referencePpts,
     derivedReferenceImageCount: derivedReferenceImages.length,
+    previewState: draftPreviewState,
     layoutLibraryPath,
     layoutSet: layoutLibrary.setName,
     draftLayoutSelection: semanticRefinedSelection,
@@ -998,6 +1034,7 @@ async function createWorkflowSession({ files, options = {} }) {
       layoutOptionsPath,
       draftDeckPath,
       previewDir,
+      previewState: draftPreviewState,
     },
   };
   updateSessionMeta(sessionDir, meta);
@@ -1009,6 +1046,7 @@ async function createWorkflowSession({ files, options = {} }) {
     notes,
     documentSummary,
     previews,
+    previewState: draftPreviewState,
     uploadedMaterialLibraries: reference.uploadedLibraries,
     uploadedReferenceLibraries: [],
     uploadedReferenceImages: stagedFiles.referenceImages,
@@ -1185,13 +1223,15 @@ async function generateWorkflowDeck({ sessionId, outline, style, layoutSelection
 
   const deckPath = path.join(outputDir, "workflow_generated.pptx");
   await reportGenerator.renderDeck(finalOutline, finalStyle, deckPath);
-    const previewDir = path.join(outputDir, "rendered_preview");
-    const finalPreviews = await buildRenderedPreviews(
-      deckPath,
-      previewDir,
-      (finalOutline.slides || []).map((slide) => slide.title),
-      { width: 1280, height: 720, timeoutMs: 90000 },
-    );
+  const previewDir = path.join(outputDir, "rendered_preview");
+  const finalPreviewResult = await buildRenderedPreviews(
+    deckPath,
+    previewDir,
+    (finalOutline.slides || []).map((slide) => slide.title),
+    { width: 1280, height: 720, timeoutMs: 90000 },
+  );
+  const finalPreviewState = normalizePreviewState(finalPreviewResult, "final");
+  const finalPreviews = finalPreviewResult.previews || [];
   const finalSemanticReview = await reviewRenderedDeck(
     finalPreviews || [],
     finalOutline,
@@ -1252,6 +1292,7 @@ async function generateWorkflowDeck({ sessionId, outline, style, layoutSelection
     currentStage: "completed",
     currentStageLabel: "处理完成",
     message: "最终 PPT 与真实渲染图已归档，原始会话工作区已销毁。",
+    previewState: finalPreviewState,
     layoutSet: layoutLibrary.setName,
     layoutOptions: buildLayoutOptions(
       session.meta.layoutLibraryPath,
@@ -1283,6 +1324,7 @@ async function generateWorkflowDeck({ sessionId, outline, style, layoutSelection
       semanticRefinedSelectionPath,
       notesPath,
       previewDir,
+      previewState: finalPreviewState,
     },
   };
 
@@ -1332,6 +1374,7 @@ async function generateWorkflowDeck({ sessionId, outline, style, layoutSelection
     sessionId,
     deckPath,
     finalPreviews,
+    previewState: finalPreviewState,
     layoutOptions: buildLayoutOptions(
       session.meta.layoutLibraryPath,
       finalOutline,
@@ -1369,4 +1412,6 @@ module.exports = {
   startWorkflowSession,
   generateWorkflowDeck,
   buildLayoutOptions,
+  normalizePreviewState,
+  previewStatusMessage,
 };
