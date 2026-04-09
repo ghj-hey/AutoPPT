@@ -1,5 +1,9 @@
 # PPT Agent 2
 
+![CI](https://github.com/ghj-hey/AutoPPT/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/github/license/ghj-hey/AutoPPT)
+![Node](https://img.shields.io/badge/node-22%2B-339933)
+
 `PPT Agent 2` 是一套离线 PowerPoint 工作流，用于把需求文档和参考 PPT 转成**可编辑**、可复用的商务演示文稿。
 
 它主要面向中文金融汇报、管理汇报、经营分析等场景，强调的是“可编辑的 PPT 产物”，而不是只输出平面图片。
@@ -12,6 +16,13 @@
 - 支持从多个参考 PPT 中抽取并复用素材
 - 在可用时可通过 Microsoft PowerPoint 导出真实页面预览
 - 保留摘要、大纲、样式、布局和预览等中间产物，方便检查与修正
+
+## 项目状态
+
+- 公开仓库：仅包含代码和配置
+- CI：GitHub Actions 在每次 push 和 pull request 时运行
+- 发布门禁：`npm run release-check`
+- 运行环境：Node.js 22+
 
 ## 公开仓库范围
 

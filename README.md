@@ -1,5 +1,9 @@
 # PPT Agent 2
 
+![CI](https://github.com/ghj-hey/AutoPPT/actions/workflows/ci.yml/badge.svg)
+![License](https://img.shields.io/github/license/ghj-hey/AutoPPT)
+![Node](https://img.shields.io/badge/node-22%2B-339933)
+
 PPT Agent 2 is an offline PowerPoint workflow for turning requirements docs and reference decks into editable, business-ready presentations.
 
 It is built for Chinese financial reporting, management reporting, and similar presentation-heavy workflows where editable output matters more than a flat image export.
@@ -12,6 +16,13 @@ It is built for Chinese financial reporting, management reporting, and similar p
 - Reuse materials extracted from one or more reference PPTs
 - Export real PowerPoint-rendered slide previews when PowerPoint is available
 - Keep the drafting pipeline visible: summary, outline, style, layout, and preview artifacts
+
+## Project status
+
+- Public repository: code and configuration only
+- CI: GitHub Actions running on every push and pull request
+- Release gate: `npm run release-check`
+- Runtime: Node.js 22+
 
 ## Public repository scope
 
