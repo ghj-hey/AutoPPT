@@ -445,7 +445,16 @@ function renderPreviewStatus(containerId, state = null, emptyText = '暂无预�
   const container = byId(containerId);
   if (!container) return;
   if (!state) {
-    container.innerHTML = `<div class="status-item preview-status-card"><strong>预览状态待检测</strong><div>${escapeHtml(emptyText)}</div></div>`;
+    container.innerHTML = `
+      <div class="status-item preview-status-card preview-status-pending">
+        <div class="preview-status-top">
+          <span class="preview-status-badge preview-status-badge-pending">待检测</span>
+          <strong>预览环境可用性</strong>
+        </div>
+        <div class="preview-status-summary">${escapeHtml(emptyText)}</div>
+        <div class="preview-status-helper">等待后台检测环境能力。</div>
+      </div>
+    `;
     return;
   }
 
@@ -468,10 +477,16 @@ function renderPreviewStatus(containerId, state = null, emptyText = '暂无预�
 
   container.innerHTML = `
     <div class="status-item preview-status-card preview-status-${escapeHtml(status || 'unknown')}">
-      <strong>预览环境可用性：${escapeHtml(previewStateLabel(state))}</strong>
-      <div>${escapeHtml(detail)}</div>
-      <div>${escapeHtml(helper)}</div>
-      <div>${escapeHtml(`平台：${platform}｜${status === 'available' ? `预览数量：${previewCount}` : '已跳过预览导出'}`)}</div>
+      <div class="preview-status-top">
+        <span class="preview-status-badge preview-status-badge-${escapeHtml(status || 'unknown')}">${escapeHtml(previewStateLabel(state))}</span>
+        <strong>预览环境可用性</strong>
+      </div>
+      <div class="preview-status-summary">${escapeHtml(detail)}</div>
+      <div class="preview-status-helper">${escapeHtml(helper)}</div>
+      <div class="preview-status-meta">
+        <span>${escapeHtml(`平台：${platform}`)}</span>
+        <span>${escapeHtml(status === 'available' ? `预览数量：${previewCount}` : '已跳过预览导出')}</span>
+      </div>
     </div>
   `;
 }
