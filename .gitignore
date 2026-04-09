@@ -26,7 +26,9 @@ reference_library/master/*
 !reference_library/work_meeting/
 reference_library/work_meeting/*
 !reference_library/work_meeting/.gitkeep
-README*.md
+reference_library/*/README.md
+!/README.md
+!/README.zh-CN.md
 LICENSE
 *.png
 *.jpg

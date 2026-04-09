@@ -10,7 +10,7 @@ while IFS= read -r file; do
   case "$file" in
     src/*|test/*|scripts/*|.github/workflows/*)
       ;;
-    package.json|package-lock.json|.gitignore|.gitattributes|build_reference_library.js|report_runner.js)
+    README.md|README.zh-CN.md|package.json|package-lock.json|.gitignore|.gitattributes|build_reference_library.js|report_runner.js)
       ;;
     assets/.gitkeep|reference_library/.gitkeep|reference_library/libraries/.gitkeep|reference_library/master/.gitkeep|reference_library/work_meeting/.gitkeep)
       ;;
