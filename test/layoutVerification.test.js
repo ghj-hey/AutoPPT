@@ -1,14 +1,12 @@
 const test = require("node:test");
 const assert = require("node:assert/strict");
 
-const { loadLayoutLibrary } = require("../src/cli/report_runner");
 const { buildLayoutOptions } = require("../src/services/layoutSelectionService");
 const {
   buildReadableDownloadManifestCn,
   buildReadableFinalDownloadManifestCn,
   buildArchivedDeliveryManifestCn,
 } = require("../src/services/workflowTextHelpers");
-const { DEFAULT_LAYOUT_LIBRARY } = require("../src/utils/pathConfig");
 
 function sampleTable(rows, cols) {
   return {
@@ -19,8 +17,78 @@ function sampleTable(rows, cols) {
   };
 }
 
+function createTestLayoutLibrary() {
+  return {
+    path: "/virtual/layout-library.json",
+    version: "2.0.0",
+    defaultSet: "bank_finance_dynamic",
+    setName: "bank_finance_dynamic",
+    setMetadata: {
+      bank_finance_dynamic: {
+        displayName: "动态组合型",
+        description: "测试用布局库，覆盖主要页面类型。",
+      },
+    },
+    defaultsByType: {
+      cover: "cover_formal_v1",
+      summary_cards: "summary_grid_v1",
+      table_analysis: "table_compare_v1",
+      process_flow: "process_three_lane_v1",
+      bullet_columns: "bullet_dual_v1",
+      image_story: "image_split_v1",
+      action_plan: "action_timeline_v1",
+      key_takeaways: "takeaway_cards_v1",
+    },
+    sets: {
+      bank_finance_dynamic: {
+        cover: "cover_formal_v1",
+        summary_cards: "summary_grid_v1",
+        table_analysis: "table_compare_v1",
+        process_flow: "process_three_lane_v1",
+        bullet_columns: "bullet_dual_v1",
+        image_story: "image_split_v1",
+        action_plan: "action_timeline_v1",
+        key_takeaways: "takeaway_cards_v1",
+      },
+    },
+    set: {
+      cover: "cover_formal_v1",
+      summary_cards: "summary_grid_v1",
+      table_analysis: "table_compare_v1",
+      process_flow: "process_three_lane_v1",
+      bullet_columns: "bullet_dual_v1",
+      image_story: "image_split_v1",
+      action_plan: "action_timeline_v1",
+      key_takeaways: "takeaway_cards_v1",
+    },
+    templates: {
+      cover_formal_v1: { pageType: "cover", variant: "formal", displayName: "正式封面", family: "cover" },
+      cover_clean_v1: { pageType: "cover", variant: "clean", displayName: "简洁封面", family: "cover" },
+      summary_grid_v1: { pageType: "summary_cards", variant: "grid", displayName: "摘要四卡", family: "summary" },
+      summary_dense_v1: { pageType: "summary_cards", variant: "dense_grid", displayName: "高密度摘要", family: "summary" },
+      summary_spread_v1: { pageType: "summary_cards", variant: "spread", displayName: "横向摘要铺陈", family: "summary" },
+      table_compare_v1: { pageType: "table_analysis", variant: "compare", displayName: "对比表格", family: "compare_split" },
+      table_split_v1: { pageType: "table_analysis", variant: "split", displayName: "拆分表格", family: "compare_split" },
+      table_visual_v1: { pageType: "table_analysis", variant: "visual", displayName: "图表混排", family: "media_panel" },
+      table_dashboard_v1: { pageType: "table_analysis", variant: "dashboard", displayName: "看板表格", family: "data_wall" },
+      table_matrix_v1: { pageType: "table_analysis", variant: "matrix", displayName: "矩阵分析表格", family: "matrix_grid" },
+      table_picture_v1: { pageType: "table_analysis", variant: "picture", displayName: "图片佐证表格", family: "media_panel" },
+      table_highlight_v1: { pageType: "table_analysis", variant: "highlight", displayName: "重点高亮表格", family: "highlight_focus" },
+      table_stack_v1: { pageType: "table_analysis", variant: "stack", displayName: "堆叠结论表格", family: "stacked_story" },
+      image_split_v1: { pageType: "image_story", variant: "split", displayName: "图文分栏", family: "media_panel" },
+      image_focus_v1: { pageType: "image_story", variant: "focus", displayName: "主图聚焦", family: "media_panel" },
+      image_storyboard_v1: { pageType: "image_story", variant: "storyboard", displayName: "图文故事板", family: "media_panel" },
+      image_gallery_v1: { pageType: "image_story", variant: "gallery", displayName: "图片画廊", family: "media_panel" },
+      process_three_lane_v1: { pageType: "process_flow", variant: "three_lane", displayName: "三段流程", family: "process" },
+      bullet_dual_v1: { pageType: "bullet_columns", variant: "dual", displayName: "双栏要点", family: "bullet" },
+      action_timeline_v1: { pageType: "action_plan", variant: "timeline", displayName: "时间推进", family: "action" },
+      takeaway_cards_v1: { pageType: "key_takeaways", variant: "cards", displayName: "结论卡片", family: "summary" },
+    },
+  };
+}
+
 test("buildLayoutOptions keeps machine ids stable while exposing Chinese layout labels", () => {
-  const layoutLibrary = loadLayoutLibrary(DEFAULT_LAYOUT_LIBRARY, "bank_finance_dynamic");
+  const layoutLibrary = createTestLayoutLibrary();
   const outline = {
     slides: [
       {
